@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 23fe454af65941488ebe3fce9cee1547, type: 3}
-  m_Name: Settings
+  m_Name: Script
   m_EditorClassIdentifier: 
   Events:
   - name: hello
@@ -20,7 +20,7 @@ MonoBehaviour:
       minRelationship: 0
       maxRelationship: 0
     events: []
-    music: {fileID: 0}
+    music: {fileID: 8300000, guid: a3eab3f4d88b448d78d2914c83fa2a96, type: 3}
     animation: 
     completable: 1
   - name: change_name
@@ -30,6 +30,6 @@ MonoBehaviour:
       minRelationship: 0
       maxRelationship: 0
     events: []
-    music: {fileID: 0}
+    music: {fileID: 8300000, guid: 6377428bcc8954d5185621fd0a752ad2, type: 3}
     animation: 
     completable: 1

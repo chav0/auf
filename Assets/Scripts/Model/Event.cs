@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class EventHandler
 {
-    public Event Event { get; private set; }
+    public Event Event { get; }
     public bool Ends => true; 
     
     public EventHandler(Event gameEvent)
@@ -13,12 +13,19 @@ public class EventHandler
         Event = gameEvent;
     }
 
-    public void Start(Widget widget)
+    public void Start(Widget widget, AudioSource music, Environment environment)
     {
-        
+        if (Event.music != null)
+        {
+            music.clip = Event.music;
+            music.loop = true;
+            music.Play();
+        }
+
+        environment.Set(Event.environment); 
     }
 
-    public void Handle(Data data, Widget widget)
+    public void Handle(Data data, Widget widget, Wolf wolf)
     {
         
     }
@@ -31,7 +38,9 @@ public class Event
     public Condition condition;
     public List<Event> events;
     public AudioClip music;
-    public string animation;
+    public WolfFaceState face;
+    public WolfBodyState body;
+    public EnvironmentState environment;
     public bool completable;
 
     public bool Fits(Data data)
