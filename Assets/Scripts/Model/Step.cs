@@ -1,6 +1,4 @@
 using System;
-using UnityEngine;
-using UnityEngine.Events;
 
 [Serializable]
 public class Step
@@ -9,7 +7,9 @@ public class Step
     public string text; 
     public WolfFaceState face;
     public WolfBodyState body;
-
+    public float timer;
+    public string firstButton;
+    public string secondButton; 
 }
 
 public enum StepType
@@ -19,7 +19,9 @@ public enum StepType
     AngryText,
     OneAnswer,
     TwoAnswers, 
-    InputField,
+    ChangeName,
+    ChangeWolfName,
     Image,
-    URL
+    Video,
+    Timer
 }

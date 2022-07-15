@@ -19,9 +19,22 @@ MonoBehaviour:
       isWoman: 0
       minRelationship: 0
       maxRelationship: 0
-    events: []
-    music: {fileID: 8300000, guid: a3eab3f4d88b448d78d2914c83fa2a96, type: 3}
-    animation: 
+    steps:
+    - type: 9
+      text: "\u041F\u0440\u0438\u0432\u0435\u0442! \u0427\u0435 \u0434\u0435\u043B\u0430\u0435\u0448\u044C?"
+      face: 0
+      body: 0
+      timer: 10
+      firstButton: 
+      secondButton: 
+    - type: 0
+      text: "\u0427\u0415 \u0414\u0415\u041B\u0410\u0415\u0428\u042C?"
+      face: 0
+      body: 0
+      timer: 5
+      firstButton: 
+      secondButton: 
+    music: {fileID: 8300000, guid: 866038a612bbf4aeeabce4c3a304b368, type: 3}
     completable: 1
   - name: change_name
     condition:
@@ -29,7 +42,6 @@ MonoBehaviour:
       isWoman: 0
       minRelationship: 0
       maxRelationship: 0
-    events: []
-    music: {fileID: 8300000, guid: 6377428bcc8954d5185621fd0a752ad2, type: 3}
-    animation: 
+    steps: []
+    music: {fileID: 0}
     completable: 1

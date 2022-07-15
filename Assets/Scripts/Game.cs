@@ -18,7 +18,7 @@ public class Game : MonoBehaviour
 
     private void Update()
     {
-        if (!widget.Main.IsLoaded)
+        if (!widget.main.IsLoaded)
             return;
         
         if (_currentEventHandler == null || _currentEventHandler.Ends)
@@ -44,7 +44,7 @@ public class Game : MonoBehaviour
             if (gameEvent.Fits(_data))
             {
                 Debug.Log($"Start new event {gameEvent.name}");
-                return new EventHandler(gameEvent);
+                return new EventHandler(gameEvent, _data, widget, wolf);
             } 
         }
 

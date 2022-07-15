@@ -26,4 +26,5 @@ public enum WolfBodyState
     Sit,
     Lay, 
     Jump,
+    Workout
 }
