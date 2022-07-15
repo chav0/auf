@@ -30,7 +30,7 @@ public class Game : MonoBehaviour
             }
             
             _currentEventHandler = FindEvent();
-            _currentEventHandler?.Start(widget, music, environment);
+            _currentEventHandler?.Start(_data, widget, music, environment);
         }
 
         _currentEventHandler?.Handle(_data, widget, wolf);

@@ -2,15 +2,19 @@ using UnityEngine;
 
 public class Environment : MonoBehaviour
 {
-    public void Set(EnvironmentState eventEnvironment)
+    [SerializeField] private EnvironmentStateObject[] objects; 
+    
+    public void Set(EnvironmentState state)
     {
-        
+        foreach (var obj in objects)
+        {
+            obj.gameObject.SetActive(obj.state == state);
+        }
     }
 }
 
 public enum EnvironmentState
 {
-    Talk,
-    Sleep, 
-    Task
+    Day,
+    Night
 }

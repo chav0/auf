@@ -13,7 +13,7 @@ public class EventHandler
         Event = gameEvent;
     }
 
-    public void Start(Widget widget, AudioSource music, Environment environment)
+    public void Start(Data data, Widget widget, AudioSource music, Environment environment)
     {
         if (Event.music != null)
         {
@@ -22,7 +22,9 @@ public class EventHandler
             music.Play();
         }
 
-        environment.Set(Event.environment); 
+        var hour = data.CurrentTime.Hour;
+        Debug.Log(hour);
+        environment.Set(hour > 8 && hour < 22 ? EnvironmentState.Day : EnvironmentState.Night); 
     }
 
     public void Handle(Data data, Widget widget, Wolf wolf)
@@ -36,11 +38,8 @@ public class Event
 {
     public string name; 
     public Condition condition;
-    public List<Event> events;
+    public List<Step> steps;
     public AudioClip music;
-    public WolfFaceState face;
-    public WolfBodyState body;
-    public EnvironmentState environment;
     public bool completable;
 
     public bool Fits(Data data)
