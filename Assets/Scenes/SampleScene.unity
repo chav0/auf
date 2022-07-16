@@ -446,33 +446,9 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1040092401329708735, guid: 70b11e4c0a2c94ecdae1dd6f92c8dce9, type: 3}
-      propertyPath: center.x
-      value: -2.756
-      objectReference: {fileID: 0}
-    - target: {fileID: 1040092401329708735, guid: 70b11e4c0a2c94ecdae1dd6f92c8dce9, type: 3}
-      propertyPath: center.y
-      value: 3.3539999
-      objectReference: {fileID: 0}
-    - target: {fileID: 1058980212335351147, guid: 70b11e4c0a2c94ecdae1dd6f92c8dce9, type: 3}
-      propertyPath: center.x
-      value: 0.54599994
-      objectReference: {fileID: 0}
-    - target: {fileID: 1058980212335351147, guid: 70b11e4c0a2c94ecdae1dd6f92c8dce9, type: 3}
-      propertyPath: center.y
-      value: 4.212
-      objectReference: {fileID: 0}
     - target: {fileID: 2373972268716817524, guid: 70b11e4c0a2c94ecdae1dd6f92c8dce9, type: 3}
       propertyPath: m_RootOrder
       value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 2373972268716817524, guid: 70b11e4c0a2c94ecdae1dd6f92c8dce9, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.26
-      objectReference: {fileID: 0}
-    - target: {fileID: 2373972268716817524, guid: 70b11e4c0a2c94ecdae1dd6f92c8dce9, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.26
       objectReference: {fileID: 0}
     - target: {fileID: 2373972268716817524, guid: 70b11e4c0a2c94ecdae1dd6f92c8dce9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -517,22 +493,6 @@ PrefabInstance:
     - target: {fileID: 4725251553054795453, guid: 70b11e4c0a2c94ecdae1dd6f92c8dce9, type: 3}
       propertyPath: m_Name
       value: Environment
-      objectReference: {fileID: 0}
-    - target: {fileID: 5480879242294739332, guid: 70b11e4c0a2c94ecdae1dd6f92c8dce9, type: 3}
-      propertyPath: center.x
-      value: 1.50371
-      objectReference: {fileID: 0}
-    - target: {fileID: 5480879242294739332, guid: 70b11e4c0a2c94ecdae1dd6f92c8dce9, type: 3}
-      propertyPath: center.y
-      value: 1.9675499
-      objectReference: {fileID: 0}
-    - target: {fileID: 5647162636494572126, guid: 70b11e4c0a2c94ecdae1dd6f92c8dce9, type: 3}
-      propertyPath: center.x
-      value: -1.0919999
-      objectReference: {fileID: 0}
-    - target: {fileID: 5647162636494572126, guid: 70b11e4c0a2c94ecdae1dd6f92c8dce9, type: 3}
-      propertyPath: center.y
-      value: 3.796
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 70b11e4c0a2c94ecdae1dd6f92c8dce9, type: 3}
