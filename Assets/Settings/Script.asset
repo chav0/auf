@@ -13,6 +13,195 @@ MonoBehaviour:
   m_Name: Script
   m_EditorClassIdentifier: 
   Events:
+  - name: script2
+    condition:
+      completedEvents: []
+      isWoman: 0
+      minRelationship: 0
+      maxRelationship: 0
+    steps:
+    - previousFirst: 0
+      previousSecond: 0
+      type: 3
+      text: "\u041F\u0440\u0438\u0432\u0435\u0442\u0438\u043A"
+      face: 0
+      body: 2
+      timer: 1000
+      firstButton: "\u041F\u0440\u0438\u0432\u0435\u0442\u0438\u043A"
+      secondButton: 
+      clip: {fileID: 8300000, guid: d8cb0c6abbd354530935830af2bba573, type: 3}
+      sprite: {fileID: 0}
+    - previousFirst: 0
+      previousSecond: 0
+      type: 2
+      text: "\u041F\u0443\u043A\u043D\u0438 \u0432 \u043F\u0430\u043A\u0435\u0442\u0438\u043A"
+      face: 0
+      body: 6
+      timer: 5
+      firstButton: 
+      secondButton: 
+      clip: {fileID: 8300000, guid: 457acbad1eb9e4f218633e62960903de, type: 3}
+      sprite: {fileID: 0}
+    music: {fileID: 8300000, guid: e73e56102a47049a18417e98e9413bce, type: 3}
+    completable: 1
+  - name: hello
+    condition:
+      completedEvents: []
+      isWoman: 0
+      minRelationship: 0
+      maxRelationship: 0
+    steps:
+    - previousFirst: 0
+      previousSecond: 0
+      type: 1
+      text: "\u0427\u0435 \u0434\u0435\u043B\u0430\u0435\u0448\u044C?"
+      face: 0
+      body: 6
+      timer: 3
+      firstButton: 
+      secondButton: 
+      clip: {fileID: 8300000, guid: 280c78b8ace7c49ab86896a703eb3480, type: 3}
+      sprite: {fileID: 0}
+    - previousFirst: 0
+      previousSecond: 0
+      type: 0
+      text: "\u041A\u0410\u041A \u0414\u0415\u041B\u0410?"
+      face: 2
+      body: 6
+      timer: 3
+      firstButton: 
+      secondButton: 
+      clip: {fileID: 8300000, guid: 457acbad1eb9e4f218633e62960903de, type: 3}
+      sprite: {fileID: 0}
+    - previousFirst: 0
+      previousSecond: 0
+      type: 4
+      text: "\u0422\u0430\u043A \u0447\u0442\u043E?"
+      face: 1
+      body: 2
+      timer: 1000
+      firstButton: "\u041B\u0443\u0447\u0448\u0435, \u0447\u0435\u043C \u0442\u044B
+        \u0434\u0443\u043C\u0430\u0435\u0448\u044C"
+      secondButton: "\u041F\u043E\u0442\u0438\u0445\u043E\u043D\u0435\u0447\u043A\u0443-\u043F\u043E\u043C\u0430\u043B\u0435\u043D\u0438\u0447\u043A\u0443"
+      clip: {fileID: 8300000, guid: 645abac6d5ca34dbd82281a3f8c38d9d, type: 3}
+      sprite: {fileID: 0}
+    - previousFirst: 1
+      previousSecond: 0
+      type: 1
+      text: "\u041D\u0443 \u044F\u0441\u043D\u043E"
+      face: 3
+      body: 6
+      timer: 10
+      firstButton: 
+      secondButton: 
+      clip: {fileID: 8300000, guid: 645abac6d5ca34dbd82281a3f8c38d9d, type: 3}
+      sprite: {fileID: 0}
+    - previousFirst: 0
+      previousSecond: 1
+      type: 7
+      text: "\u0414\u0435\u0440\u0436\u0438 \u043C\u0435\u043C"
+      face: 3
+      body: 6
+      timer: 1000
+      firstButton: "\u0414\u0430 \u0443\u0436"
+      secondButton: 
+      clip: {fileID: 0}
+      sprite: {fileID: 21300000, guid: 8fa2d876122c64949ba68972e56d5e63, type: 3}
+    music: {fileID: 8300000, guid: 866038a612bbf4aeeabce4c3a304b368, type: 3}
+    completable: 1
+  - name: change_name
+    condition:
+      completedEvents: []
+      isWoman: 0
+      minRelationship: 0
+      maxRelationship: 0
+    steps:
+    - previousFirst: 0
+      previousSecond: 0
+      type: 1
+      text: "\u0422\u044B \u043A\u0442\u043E \u0431\u0443\u0434\u0435\u0448\u044C?"
+      face: 0
+      body: 2
+      timer: 5
+      firstButton: 
+      secondButton: 
+      clip: {fileID: 8300000, guid: e0e1aab03d81f4cae8339ebf00082e4d, type: 3}
+      sprite: {fileID: 0}
+    - previousFirst: 0
+      previousSecond: 0
+      type: 5
+      text: 
+      face: 0
+      body: 0
+      timer: 1000
+      firstButton: 
+      secondButton: 
+      clip: {fileID: 0}
+      sprite: {fileID: 0}
+    - previousFirst: 1
+      previousSecond: 0
+      type: 3
+      text: "\u041F\u0440\u0438\u044F\u0442\u043D\u043E \u043F\u043E\u0437\u043D\u0430\u043A\u043E\u043C\u0438\u0442\u044C\u0441\u044F,
+        \u0430 \u044F \u0421\u0435\u0440\u0435\u043D\u044F, \u043D\u043E \u0442\u044B
+        \u043C\u043E\u0436\u0435\u0448\u044C \u043D\u0430\u0437\u044B\u0432\u0430\u0442\u044C
+        \u043C\u0435\u043D\u044F \u043A\u0430\u043A \u0445\u043E\u0447\u0435\u0448\u044C"
+      face: 0
+      body: 2
+      timer: 7
+      firstButton: "\u041B\u0430\u0434\u044B"
+      secondButton: 
+      clip: {fileID: 8300000, guid: 457acbad1eb9e4f218633e62960903de, type: 3}
+      sprite: {fileID: 0}
+    - previousFirst: 0
+      previousSecond: 1
+      type: 3
+      text: "\u0411\u0443\u0434\u0443 \u043D\u0430\u0437\u044B\u0432\u0430\u0442\u044C
+        \u0442\u0435\u0431\u044F \u0431\u0440\u0430\u0442 \u0442\u043E\u0433\u0434\u0430,
+        \u0430 \u044F \u0421\u0435\u0440\u0435\u043D\u044F, \u043D\u043E \u0442\u044B
+        \u043C\u043E\u0436\u0435\u0448\u044C \u043D\u0430\u0437\u044B\u0432\u0430\u0442\u044C
+        \u043C\u0435\u043D\u044F \u043A\u0430\u043A \u0445\u043E\u0447\u0435\u0448\u044C"
+      face: 0
+      body: 2
+      timer: 7
+      firstButton: "\u041B\u0430\u0434\u044B"
+      secondButton: 
+      clip: {fileID: 8300000, guid: 457acbad1eb9e4f218633e62960903de, type: 3}
+      sprite: {fileID: 0}
+    - previousFirst: 0
+      previousSecond: 0
+      type: 6
+      text: 
+      face: 0
+      body: 0
+      timer: 1000
+      firstButton: 
+      secondButton: 
+      clip: {fileID: 0}
+      sprite: {fileID: 0}
+    - previousFirst: 1
+      previousSecond: 0
+      type: 0
+      text: "\u0421\u043B\u0430\u0432\u043D\u043E\u0435 \u0438\u043C\u0435\u0447\u043A\u043E"
+      face: 0
+      body: 6
+      timer: 3
+      firstButton: 
+      secondButton: 
+      clip: {fileID: 8300000, guid: d8cb0c6abbd354530935830af2bba573, type: 3}
+      sprite: {fileID: 0}
+    - previousFirst: 0
+      previousSecond: 1
+      type: 0
+      text: "\u0421\u0435\u0440\u0435\u043D\u044F \u0442\u0430\u043A \u0421\u0435\u0440\u0435\u043D\u044F"
+      face: 0
+      body: 6
+      timer: 3
+      firstButton: 
+      secondButton: 
+      clip: {fileID: 8300000, guid: 37676b7d3799d4d6cb83ee64556f60af, type: 3}
+      sprite: {fileID: 0}
+    music: {fileID: 0}
+    completable: 1
   - name: history1
     condition:
       completedEvents: []
@@ -60,7 +249,7 @@ MonoBehaviour:
       sprite: {fileID: 0}
     music: {fileID: 8300000, guid: d1edf63d9d2614d7d969f9d4b1147d77, type: 3}
     completable: 1
-  - name: history2
+  - name: meme7
     condition:
       completedEvents: []
       isWoman: 0
@@ -69,21 +258,40 @@ MonoBehaviour:
     steps:
     - previousFirst: 0
       previousSecond: 0
-      type: 3
-      text: "\u041C\u044B \u0432\u043E\u043B\u043A\u0438, \u043D\u0435 \u0442\u043E\u043B\u044C\u043A\u043E
-        \u0441\u0438\u043B\u044C\u043D\u044B\u0435, \u043D\u043E \u0438 \u043B\u043E\u0432\u043A\u0438\u0435.
-        \u041C\u043E\u0436\u0435\u043C \u0434\u0430\u0436\u0435 \u043F\u0440\u044B\u0433\u0430\u0442\u044C
-        \u0432 \u0432\u044B\u0441\u043E\u0442\u0443 \u0434\u043E 5 \u043C\u0435\u0442\u0440\u043E\u0432."
+      type: 1
+      text: "\u041A\u0430\u043A \u0434\u0435\u043B\u0430?"
       face: 0
+      body: 6
+      timer: 4
+      firstButton: 
+      secondButton: 
+      clip: {fileID: 8300000, guid: d8cb0c6abbd354530935830af2bba573, type: 3}
+      sprite: {fileID: 0}
+    - previousFirst: 0
+      previousSecond: 0
+      type: 2
+      text: "\u0414\u0415\u0420\u0416\u0418 \u041C\u0415\u041C"
+      face: 0
+      body: 6
+      timer: 4
+      firstButton: "\u0434\u0430 \u0443\u0436"
+      secondButton: 
+      clip: {fileID: 0}
+      sprite: {fileID: 0}
+    - previousFirst: 0
+      previousSecond: 0
+      type: 7
+      text: 
+      face: 1
       body: 2
       timer: 1000
-      firstButton: "\u043E\u043A"
+      firstButton: "\u0434\u0430 \u0443\u0436"
       secondButton: 
-      clip: {fileID: 8300000, guid: 457acbad1eb9e4f218633e62960903de, type: 3}
-      sprite: {fileID: 0}
-    music: {fileID: 8300000, guid: a3eab3f4d88b448d78d2914c83fa2a96, type: 3}
+      clip: {fileID: 0}
+      sprite: {fileID: 21300000, guid: c2f25d0ae7c1641858f29901e82c6750, type: 3}
+    music: {fileID: 8300000, guid: 3c85fb29b5fae491cb175727f2ae8126, type: 3}
     completable: 1
-  - name: history3
+  - name: choose1
     condition:
       completedEvents: []
       isWoman: 0
@@ -93,195 +301,115 @@ MonoBehaviour:
     - previousFirst: 0
       previousSecond: 0
       type: 3
-      text: "\u041A\u0440\u0443\u043F\u043D\u0430\u044F \u0432\u043E\u043B\u0447\u044C\u044F
-        \u0441\u0442\u0430\u044F \u043C\u043E\u0436\u0435\u0442 \u0441\u043E\u0441\u0442\u043E\u044F\u0442\u044C
-        \u0438\u0437 35-40 \u043E\u0441\u043E\u0431\u0435\u0439, \u043D\u043E \u044F
-        \u043E\u0434\u0438\u043D...."
+      text: "\u0425\u043E\u0447\u0435\u0448\u044C \u0438\u0441\u043F\u044B\u0442\u0430\u0442\u044C
+        \u043C\u0443\u043A\u0438 \u0432\u044B\u0431\u043E\u0440\u0430?"
+      face: 3
+      body: 6
+      timer: 5
+      firstButton: "\u0434\u0430"
+      secondButton: 
+      clip: {fileID: 8300000, guid: 645abac6d5ca34dbd82281a3f8c38d9d, type: 3}
+      sprite: {fileID: 0}
+    - previousFirst: 0
+      previousSecond: 0
+      type: 4
+      text: "\u0412\u0430\u0433\u043E\u043D\u0435\u0442\u043A\u0430 \u043D\u0435\u0441\u0451\u0442\u0441\u044F
+        \u043F\u043E \u0440\u0435\u043B\u044C\u0441\u0430\u043C, \u043A \u043A\u043E\u0442\u043E\u0440\u044B\u043C
+        \u043F\u0440\u0438\u0432\u044F\u0437\u0430\u043D\u044B \u043F\u044F\u0442\u044C
+        \u0447\u0435\u043B\u043E\u0432\u0435\u043A. \u0422\u044B \u0441\u0442\u043E\u0438\u0448\u044C
+        \u043D\u0430 \u043C\u043E\u0441\u0442\u0443, \u043D\u0430\u0434 \u0440\u0435\u043B\u044C\u0441\u0430\u043C\u0438.,
+        \u0438 \u043C\u043E\u0436\u0435\u0448\u044C \u043E\u0441\u0442\u0430\u043D\u043E\u0432\u0438\u0442\u044C
+        \u0432\u0430\u0433\u043E\u043D\u0435\u0442\u043A\u0443, \u0441\u0442\u043E\u043B\u043A\u043D\u0443\u0432
+        \u0440\u044F\u0434\u043E\u043C \u0438\u0434\u0443\u0449\u0435\u0433\u043E
+        \u043F\u0440\u043E\u0445\u043E\u0436\u0435\u0433\u043E. \u0422\u0432\u043E\u0438
+        \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044F?"
+      face: 3
+      body: 2
+      timer: 5
+      firstButton: "\u0421\u0442\u043E\u043B\u043A\u043D\u0443\u0442\u044C \u043F\u0440\u043E\u0445\u043E\u0436\u0435\u0433\u043E"
+      secondButton: "\u041D\u0435 \u0441\u0442\u0430\u043B\u043A\u0438\u0432\u0430\u0442\u044C"
+      clip: {fileID: 8300000, guid: e0e1aab03d81f4cae8339ebf00082e4d, type: 3}
+      sprite: {fileID: 0}
+    - previousFirst: 1
+      previousSecond: 0
+      type: 1
+      text: "\u041F\u043E\u043C\u044F\u043D\u0435\u043C"
+      face: 1
+      body: 6
+      timer: 5
+      firstButton: 
+      secondButton: 
+      clip: {fileID: 8300000, guid: 645abac6d5ca34dbd82281a3f8c38d9d, type: 3}
+      sprite: {fileID: 0}
+    - previousFirst: 0
+      previousSecond: 1
+      type: 1
+      text: "\u041F\u043E\u043C\u044F\u043D\u0435\u043C"
+      face: 1
+      body: 6
+      timer: 5
+      firstButton: 
+      secondButton: 
+      clip: {fileID: 8300000, guid: 645abac6d5ca34dbd82281a3f8c38d9d, type: 3}
+      sprite: {fileID: 0}
+    music: {fileID: 8300000, guid: 9405321e5d3e0401a952e85472d386d2, type: 3}
+    completable: 0
+  - name: quote13
+    condition:
+      completedEvents: []
+      isWoman: 0
+      minRelationship: 0
+      maxRelationship: 0
+    steps:
+    - previousFirst: 0
+      previousSecond: 0
+      type: 1
+      text: "\u0422\u0430\u043A"
       face: 0
-      body: 5
-      timer: 1000
-      firstButton: "\u043E\u043A"
-      secondButton: 
-      clip: {fileID: 8300000, guid: 457acbad1eb9e4f218633e62960903de, type: 3}
-      sprite: {fileID: 0}
-    music: {fileID: 8300000, guid: 6377428bcc8954d5185621fd0a752ad2, type: 3}
-    completable: 1
-  - name: history4
-    condition:
-      completedEvents: []
-      isWoman: 0
-      minRelationship: 0
-      maxRelationship: 0
-    steps:
-    - previousFirst: 0
-      previousSecond: 0
-      type: 1
-      text: "\u0412\u043E\u0442 \u0447\u0442\u043E"
-      face: 1
       body: 6
-      timer: 3
+      timer: 4
       firstButton: 
       secondButton: 
-      clip: {fileID: 8300000, guid: 37676b7d3799d4d6cb83ee64556f60af, type: 3}
+      clip: {fileID: 8300000, guid: d8cb0c6abbd354530935830af2bba573, type: 3}
       sprite: {fileID: 0}
     - previousFirst: 0
       previousSecond: 0
-      type: 3
-      text: "\u041F\u043E\u0442\u043E\u043C\u0441\u0442\u0432\u043E \u0432\u043E\u0436\u0430\u043A\u0430
-        \u0438 \u0435\u0433\u043E \u043F\u0430\u0440\u044B \u043E\u0431\u044B\u0447\u043D\u043E
-        \u0432\u043E\u0441\u043F\u0438\u0442\u044B\u0432\u0430\u0435\u0442 \u0432\u0441\u044F
-        \u0441\u0442\u0430\u044F, \u0430 \u043C\u0435\u043D\u044F \u0432\u043E\u0441\u043F\u0438\u0442\u0430\u043B\u0430
-        \u0443\u043B\u0438\u0446\u0430"
+      type: 2
+      text: "\u041C\u0423\u0414\u0420\u041E\u0421\u0422\u042C"
       face: 0
-      body: 5
-      timer: 1000
-      firstButton: "\u043E\u043A"
+      body: 6
+      timer: 4
+      firstButton: "\u0434\u0430 \u0443\u0436"
       secondButton: 
-      clip: {fileID: 8300000, guid: 457acbad1eb9e4f218633e62960903de, type: 3}
+      clip: {fileID: 0}
       sprite: {fileID: 0}
-    music: {fileID: 8300000, guid: 6377428bcc8954d5185621fd0a752ad2, type: 3}
-    completable: 1
-  - name: history5
-    condition:
-      completedEvents: []
-      isWoman: 0
-      minRelationship: 0
-      maxRelationship: 0
-    steps:
     - previousFirst: 0
       previousSecond: 0
-      type: 1
-      text: 
+      type: 0
+      text: "\u041F\u043E \u0441\u0442\u0430\u0442\u0438\u0441\u0442\u0438\u043A\u0435
+        9 \u0438\u0437 10 \u0430\u0439\u0442\u0438\u0448\u043D\u0438\u043A\u043E\u0432
+        \u043D\u0435 \u0437\u043D\u0430\u044E\u0442, \u0447\u0442\u043E \u0443 \u043D\u0438\u0445
+        \u043E\u0442\u043A\u043B\u044E\u0447\u0438\u043B\u0438 \u0433\u043E\u0440\u044F\u0447\u0443\u044E
+        \u0432\u043E\u0434\u0443"
       face: 1
-      body: 6
-      timer: 3
+      body: 1
+      timer: 6
       firstButton: 
       secondButton: 
-      clip: {fileID: 8300000, guid: 37676b7d3799d4d6cb83ee64556f60af, type: 3}
+      clip: {fileID: 8300000, guid: c2556a86d91b24b8e9f0a515ba1aa990, type: 3}
       sprite: {fileID: 0}
     - previousFirst: 0
       previousSecond: 0
       type: 3
-      text: "\u0423 \u043D\u0430\u0441 \u0432\u043E\u043B\u043A\u043E\u0432 \u0432
-        \u0441\u0442\u0430\u0435 \u0435\u0441\u0442\u044C \u043D\u0435 \u0442\u043E\u043B\u044C\u043A\u043E
-        \u0433\u043B\u0430\u0432\u043D\u044B\u0439 \u0432\u043E\u043B\u043A \u2014
-        \u0432\u043E\u0436\u0430\u043A, \u043D\u043E \u0438 \u0433\u043B\u0430\u0432\u043D\u0430\u044F
-        \u0441\u0430\u043C\u043A\u0430-\u0432\u043E\u043B\u0447\u0438\u0446\u0430."
-      face: 0
-      body: 5
-      timer: 1000
-      firstButton: "\u043E\u043A"
-      secondButton: 
-      clip: {fileID: 8300000, guid: 457acbad1eb9e4f218633e62960903de, type: 3}
-      sprite: {fileID: 0}
-    music: {fileID: 8300000, guid: 6377428bcc8954d5185621fd0a752ad2, type: 3}
-    completable: 1
-  - name: history6
-    condition:
-      completedEvents: []
-      isWoman: 0
-      minRelationship: 0
-      maxRelationship: 0
-    steps:
-    - previousFirst: 0
-      previousSecond: 0
-      type: 1
-      text: 
+      text: "\u0430\u0443\u0444!"
       face: 1
-      body: 6
-      timer: 3
-      firstButton: 
+      body: 1
+      timer: 4
+      firstButton: "\u0430\u0443\u0444!"
       secondButton: 
-      clip: {fileID: 8300000, guid: 37676b7d3799d4d6cb83ee64556f60af, type: 3}
+      clip: {fileID: 8300000, guid: d8cb0c6abbd354530935830af2bba573, type: 3}
       sprite: {fileID: 0}
-    - previousFirst: 0
-      previousSecond: 0
-      type: 3
-      text: "\u041C\u044B \u0441\u043F\u043E\u0441\u043E\u0431\u043D\u044B \u043F\u0440\u043E\u0436\u0438\u0442\u044C
-        \u0431\u043E\u043B\u044C\u0448\u0435 \u043D\u0435\u0434\u0435\u043B\u0438
-        \u0431\u0435\u0437 \u0435\u0434\u044B, \u043F\u0440\u0438 \u044D\u0442\u043E\u043C
-        \u043F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438 \u043D\u0435
-        \u0441\u043D\u0438\u0436\u0430\u044F \u0430\u043A\u0442\u0438\u0432\u043D\u043E\u0441\u0442\u0438"
-      face: 2
-      body: 6
-      timer: 1000
-      firstButton: "\u043E\u043A"
-      secondButton: 
-      clip: {fileID: 8300000, guid: 457acbad1eb9e4f218633e62960903de, type: 3}
-      sprite: {fileID: 0}
-    music: {fileID: 8300000, guid: 6377428bcc8954d5185621fd0a752ad2, type: 3}
-    completable: 1
-  - name: history7
-    condition:
-      completedEvents: []
-      isWoman: 0
-      minRelationship: 0
-      maxRelationship: 0
-    steps:
-    - previousFirst: 0
-      previousSecond: 0
-      type: 1
-      text: 
-      face: 1
-      body: 6
-      timer: 3
-      firstButton: 
-      secondButton: 
-      clip: {fileID: 8300000, guid: 37676b7d3799d4d6cb83ee64556f60af, type: 3}
-      sprite: {fileID: 0}
-    - previousFirst: 0
-      previousSecond: 0
-      type: 3
-      text: "\u041E\u0431\u043E\u043D\u044F\u043D\u0438\u0435 \u0443 \u043D\u0430\u0441
-        \u043F\u0440\u0438\u043C\u0435\u0440\u043D\u043E \u0432\u043E \u043C\u043D\u043E\u0433\u043E
-        \u0440\u0430\u0437 \u043E\u0441\u0442\u0440\u0435\u0435, \u0447\u0435\u043C
-        \u0443 \u043B\u044E\u0434\u0435\u0439. \u0417\u0430\u043F\u0430\u0445 \u0432\u043E\u043B\u043A\u0438
-        \u0441\u043F\u043E\u0441\u043E\u0431\u043D\u044B \u043F\u043E\u0447\u0443\u0432\u0441\u0442\u0432\u043E\u0432\u0430\u0442\u044C
-        \u043D\u0430 \u0440\u0430\u0441\u0441\u0442\u043E\u044F\u043D\u0438\u0438
-        \u0434\u043E 15-20 \u043A\u043C. \u041F\u0440\u0438\u0437\u043D\u0430\u0432\u0430\u0439\u0441\u044F,
-        \u043F\u0443\u043A\u043D\u0443\u043B?"
-      face: 2
-      body: 6
-      timer: 1000
-      firstButton: "\u043E\u043A"
-      secondButton: 
-      clip: {fileID: 8300000, guid: 457acbad1eb9e4f218633e62960903de, type: 3}
-      sprite: {fileID: 0}
-    music: {fileID: 8300000, guid: 6377428bcc8954d5185621fd0a752ad2, type: 3}
-    completable: 1
-  - name: history8
-    condition:
-      completedEvents: []
-      isWoman: 0
-      minRelationship: 0
-      maxRelationship: 0
-    steps:
-    - previousFirst: 0
-      previousSecond: 0
-      type: 1
-      text: 
-      face: 1
-      body: 6
-      timer: 3
-      firstButton: 
-      secondButton: 
-      clip: {fileID: 8300000, guid: 37676b7d3799d4d6cb83ee64556f60af, type: 3}
-      sprite: {fileID: 0}
-    - previousFirst: 0
-      previousSecond: 0
-      type: 3
-      text: "\u0412\u0435\u0441 \u0441\u0430\u043C\u043E\u0433\u043E \u043A\u0440\u0443\u043F\u043D\u043E\u0433\u043E
-        \u0432\u043E\u043B\u043A\u0430, \u043A\u043E\u0433\u0434\u0430-\u043B\u0438\u0431\u043E
-        \u0438\u0437\u0432\u0435\u0441\u0442\u043D\u043E\u0433\u043E, \u0441\u043E\u0441\u0442\u0430\u0432\u043B\u044F\u043B
-        86 \u043A\u0438\u043B\u043E\u0433\u0440\u0430\u043C\u043C\u043E\u0432."
-      face: 2
-      body: 6
-      timer: 1000
-      firstButton: "\u043E\u043A"
-      secondButton: 
-      clip: {fileID: 8300000, guid: 457acbad1eb9e4f218633e62960903de, type: 3}
-      sprite: {fileID: 0}
-    music: {fileID: 8300000, guid: a3eab3f4d88b448d78d2914c83fa2a96, type: 3}
+    music: {fileID: 8300000, guid: 3c85fb29b5fae491cb175727f2ae8126, type: 3}
     completable: 1
   - name: anek1
     condition:
@@ -353,6 +481,285 @@ MonoBehaviour:
       sprite: {fileID: 0}
     music: {fileID: 8300000, guid: d1edf63d9d2614d7d969f9d4b1147d77, type: 3}
     completable: 1
+  - name: quote12
+    condition:
+      completedEvents: []
+      isWoman: 0
+      minRelationship: 0
+      maxRelationship: 0
+    steps:
+    - previousFirst: 0
+      previousSecond: 0
+      type: 1
+      text: "\u0422\u0430\u043A"
+      face: 0
+      body: 6
+      timer: 4
+      firstButton: 
+      secondButton: 
+      clip: {fileID: 8300000, guid: d8cb0c6abbd354530935830af2bba573, type: 3}
+      sprite: {fileID: 0}
+    - previousFirst: 0
+      previousSecond: 0
+      type: 2
+      text: "\u041C\u0423\u0414\u0420\u041E\u0421\u0422\u042C"
+      face: 0
+      body: 6
+      timer: 4
+      firstButton: "\u0434\u0430 \u0443\u0436"
+      secondButton: 
+      clip: {fileID: 0}
+      sprite: {fileID: 0}
+    - previousFirst: 0
+      previousSecond: 0
+      type: 0
+      text: "\u0416\u0438\u0442\u044C \u043D\u0443\u0436\u043D\u043E \u0442\u0430\u043A,
+        \u0447\u0442\u043E\u0431\u044B \u043D\u0435 \u0441\u0442\u0430\u0442\u044C
+        \u0442\u0430\u043A\u0438\u043C \u0447\u0435\u043B\u043E\u0432\u0435\u043A\u043E\u043C,
+        \u043A\u043E\u0442\u043E\u0440\u044B\u0439 \u043F\u0440\u043E\u0434\u0430\u0451\u0442
+        \u043D\u0430 \u0430\u0432\u0438\u0442\u043E \u0442\u0443\u043C\u0431\u043E\u0447\u043A\u0443
+        \u043F\u0430\u043B\u044C\u0442\u043E \u0447\u0430\u0439\u043D\u0438\u043A
+        \u0434\u0438\u0432\u0430\u043D \u043E\u0431\u043E\u0441\u0441\u0430\u043D\u044B\u0439.
+        \u0418 \u0442\u0435\u043C \u0431\u043E\u043B\u0435\u0435 \u0442\u0430\u043A\u0438\u043C,
+        \u043A\u0442\u043E \u044D\u0442\u043E \u0432\u0441\u0451 \u0442\u0430\u043C
+        \u0438\u0449\u0435\u0442."
+      face: 1
+      body: 1
+      timer: 10
+      firstButton: 
+      secondButton: 
+      clip: {fileID: 8300000, guid: c2556a86d91b24b8e9f0a515ba1aa990, type: 3}
+      sprite: {fileID: 0}
+    - previousFirst: 0
+      previousSecond: 0
+      type: 3
+      text: "\u0430\u0443\u0444!"
+      face: 1
+      body: 1
+      timer: 4
+      firstButton: "\u0430\u0443\u0444!"
+      secondButton: 
+      clip: {fileID: 8300000, guid: d8cb0c6abbd354530935830af2bba573, type: 3}
+      sprite: {fileID: 0}
+    music: {fileID: 8300000, guid: 3c85fb29b5fae491cb175727f2ae8126, type: 3}
+    completable: 1
+  - name: choose2
+    condition:
+      completedEvents: []
+      isWoman: 0
+      minRelationship: 0
+      maxRelationship: 0
+    steps:
+    - previousFirst: 0
+      previousSecond: 0
+      type: 3
+      text: "\u042D\u0439 \u043D\u0435 \u0432\u0438\u0434\u0438\u0448\u044C \u044F
+        \u043F\u043E \u0442\u0435\u043B\u0435\u0444\u043E\u043D\u0443 \u0431\u043E\u043B\u0442\u0430\u044E"
+      face: 0
+      body: 4
+      timer: 1000
+      firstButton: "\u041E\u043A"
+      secondButton: 
+      clip: {fileID: 8300000, guid: 645abac6d5ca34dbd82281a3f8c38d9d, type: 3}
+      sprite: {fileID: 0}
+    - previousFirst: 0
+      previousSecond: 0
+      type: 1
+      text: "\u042D\u0439 \u043D\u0435 \u0432\u0438\u0434\u0438\u0448\u044C \u044F
+        \u043F\u043E \u0442\u0435\u043B\u0435\u0444\u043E\u043D\u0443 \u0431\u043E\u043B\u0442\u0430\u044E"
+      face: 0
+      body: 4
+      timer: 10
+      firstButton: 
+      secondButton: 
+      clip: {fileID: 0}
+      sprite: {fileID: 0}
+    music: {fileID: 8300000, guid: 9405321e5d3e0401a952e85472d386d2, type: 3}
+    completable: 0
+  - name: workout2
+    condition:
+      completedEvents: []
+      isWoman: 0
+      minRelationship: 0
+      maxRelationship: 0
+    steps:
+    - previousFirst: 0
+      previousSecond: 0
+      type: 1
+      text: "\u0422\u0430\u043A, \u0432\u0440\u0435\u043C\u044F \u043F\u043E\u0437\u0430\u043D\u0438\u043C\u0430\u0442\u044C\u0441\u044F"
+      face: 0
+      body: 6
+      timer: 4
+      firstButton: 
+      secondButton: 
+      clip: {fileID: 8300000, guid: d8cb0c6abbd354530935830af2bba573, type: 3}
+      sprite: {fileID: 0}
+    - previousFirst: 0
+      previousSecond: 0
+      type: 9
+      text: "10 \u0440\u0430\u0437 \u043F\u043E\u0434\u0442\u044F\u043D\u0438\u0441\u044C
+        \u043D\u0430 \u0442\u0443\u0440\u043D\u0438\u043A\u0435, \u0437\u0430\u0441\u0435\u043A\u0430\u044E!"
+      face: 3
+      body: 6
+      timer: 10
+      firstButton: 
+      secondButton: 
+      clip: {fileID: 8300000, guid: d8cb0c6abbd354530935830af2bba573, type: 3}
+      sprite: {fileID: 0}
+    music: {fileID: 8300000, guid: a3eab3f4d88b448d78d2914c83fa2a96, type: 3}
+    completable: 1
+  - name: quote3
+    condition:
+      completedEvents: []
+      isWoman: 0
+      minRelationship: 0
+      maxRelationship: 0
+    steps:
+    - previousFirst: 0
+      previousSecond: 0
+      type: 1
+      text: "\u0422\u0430\u043A"
+      face: 0
+      body: 6
+      timer: 4
+      firstButton: 
+      secondButton: 
+      clip: {fileID: 8300000, guid: d8cb0c6abbd354530935830af2bba573, type: 3}
+      sprite: {fileID: 0}
+    - previousFirst: 0
+      previousSecond: 0
+      type: 2
+      text: "\u041C\u0423\u0414\u0420\u041E\u0421\u0422\u042C"
+      face: 0
+      body: 6
+      timer: 4
+      firstButton: "\u0434\u0430 \u0443\u0436"
+      secondButton: 
+      clip: {fileID: 0}
+      sprite: {fileID: 0}
+    - previousFirst: 0
+      previousSecond: 0
+      type: 0
+      text: "\u0415\u0441\u043B\u0438 \u0441\u043B\u043E\u0436\u043D\u043E \u0436\u0438\u0442\u044C
+        \u0437\u043D\u0430\u0447\u0442 \u0436\u0438\u0432\u0435\u0448\u044C \u0441\u043B\u043E\u0436\u043D\u043E"
+      face: 1
+      body: 1
+      timer: 4
+      firstButton: 
+      secondButton: 
+      clip: {fileID: 8300000, guid: c2556a86d91b24b8e9f0a515ba1aa990, type: 3}
+      sprite: {fileID: 0}
+    - previousFirst: 0
+      previousSecond: 0
+      type: 3
+      text: "\u0430\u0443\u0444!"
+      face: 1
+      body: 1
+      timer: 1000
+      firstButton: "\u0430\u0443\u0444!"
+      secondButton: 
+      clip: {fileID: 8300000, guid: d8cb0c6abbd354530935830af2bba573, type: 3}
+      sprite: {fileID: 0}
+    music: {fileID: 8300000, guid: 3c85fb29b5fae491cb175727f2ae8126, type: 3}
+    completable: 1
+  - name: history5
+    condition:
+      completedEvents: []
+      isWoman: 0
+      minRelationship: 0
+      maxRelationship: 0
+    steps:
+    - previousFirst: 0
+      previousSecond: 0
+      type: 1
+      text: 
+      face: 1
+      body: 6
+      timer: 3
+      firstButton: 
+      secondButton: 
+      clip: {fileID: 8300000, guid: 37676b7d3799d4d6cb83ee64556f60af, type: 3}
+      sprite: {fileID: 0}
+    - previousFirst: 0
+      previousSecond: 0
+      type: 3
+      text: "\u0423 \u043D\u0430\u0441 \u0432\u043E\u043B\u043A\u043E\u0432 \u0432
+        \u0441\u0442\u0430\u0435 \u0435\u0441\u0442\u044C \u043D\u0435 \u0442\u043E\u043B\u044C\u043A\u043E
+        \u0433\u043B\u0430\u0432\u043D\u044B\u0439 \u0432\u043E\u043B\u043A \u2014
+        \u0432\u043E\u0436\u0430\u043A, \u043D\u043E \u0438 \u0433\u043B\u0430\u0432\u043D\u0430\u044F
+        \u0441\u0430\u043C\u043A\u0430-\u0432\u043E\u043B\u0447\u0438\u0446\u0430."
+      face: 0
+      body: 5
+      timer: 1000
+      firstButton: "\u043E\u043A"
+      secondButton: 
+      clip: {fileID: 8300000, guid: 457acbad1eb9e4f218633e62960903de, type: 3}
+      sprite: {fileID: 0}
+    music: {fileID: 8300000, guid: 6377428bcc8954d5185621fd0a752ad2, type: 3}
+    completable: 1
+  - name: anek8
+    condition:
+      completedEvents: []
+      isWoman: 0
+      minRelationship: 0
+      maxRelationship: 0
+    steps:
+    - previousFirst: 0
+      previousSecond: 0
+      type: 0
+      text: "\u0421\u041B\u0423\u0428\u0410\u0419"
+      face: 2
+      body: 6
+      timer: 4
+      firstButton: 
+      secondButton: 
+      clip: {fileID: 8300000, guid: bff394af233e8461fadd67ef345543af, type: 3}
+      sprite: {fileID: 0}
+    - previousFirst: 0
+      previousSecond: 0
+      type: 3
+      text: "\u043F\u043E\u0447\u0435\u043C\u0443 \u043D\u0435\u0442 \u0438\u0433\u0440\u044B
+        \u0433\u0434\u0435 \u0442\u044B \u0442\u0438\u043F\u0430 \u0433\u0440\u0438\u0431\u043E\u043A"
+      face: 1
+      body: 2
+      timer: 1000
+      firstButton: "\u0434\u0430 \u0443\u0436"
+      secondButton: 
+      clip: {fileID: 8300000, guid: 457acbad1eb9e4f218633e62960903de, type: 3}
+      sprite: {fileID: 0}
+    music: {fileID: 8300000, guid: 6377428bcc8954d5185621fd0a752ad2, type: 3}
+    completable: 1
+  - name: meme1
+    condition:
+      completedEvents: []
+      isWoman: 0
+      minRelationship: 0
+      maxRelationship: 0
+    steps:
+    - previousFirst: 0
+      previousSecond: 0
+      type: 1
+      text: "\u0410 \u0442\u0435\u043F\u0435\u0440\u044C \u043C\u0435\u043C"
+      face: 0
+      body: 6
+      timer: 4
+      firstButton: 
+      secondButton: 
+      clip: {fileID: 8300000, guid: d8cb0c6abbd354530935830af2bba573, type: 3}
+      sprite: {fileID: 0}
+    - previousFirst: 0
+      previousSecond: 0
+      type: 7
+      text: 
+      face: 1
+      body: 2
+      timer: 1000
+      firstButton: "\u0434\u0430 \u0443\u0436"
+      secondButton: 
+      clip: {fileID: 0}
+      sprite: {fileID: 21300000, guid: a07a565cbca8840ab9f8a8f2c56b98cc, type: 3}
+    music: {fileID: 8300000, guid: 866038a612bbf4aeeabce4c3a304b368, type: 3}
+    completable: 1
   - name: anek2
     condition:
       completedEvents: []
@@ -408,6 +815,188 @@ MonoBehaviour:
       sprite: {fileID: 21300000, guid: 0c5384bfa4b274439b63335a2e3672bb, type: 3}
     music: {fileID: 8300000, guid: d1edf63d9d2614d7d969f9d4b1147d77, type: 3}
     completable: 1
+  - name: quote15
+    condition:
+      completedEvents: []
+      isWoman: 0
+      minRelationship: 0
+      maxRelationship: 0
+    steps:
+    - previousFirst: 0
+      previousSecond: 0
+      type: 1
+      text: "\u0422\u0430\u043A"
+      face: 0
+      body: 6
+      timer: 4
+      firstButton: 
+      secondButton: 
+      clip: {fileID: 8300000, guid: d8cb0c6abbd354530935830af2bba573, type: 3}
+      sprite: {fileID: 0}
+    - previousFirst: 0
+      previousSecond: 0
+      type: 2
+      text: "\u041C\u0423\u0414\u0420\u041E\u0421\u0422\u042C"
+      face: 0
+      body: 6
+      timer: 4
+      firstButton: "\u0434\u0430 \u0443\u0436"
+      secondButton: 
+      clip: {fileID: 0}
+      sprite: {fileID: 0}
+    - previousFirst: 0
+      previousSecond: 0
+      type: 0
+      text: "\u0438\u043D\u0442\u0435\u0440\u0435\u0441\u043D\u043E, \u043E \u0447\u0435\u043C
+        \u043C\u0435\u0447\u0442\u0430\u044E\u0442 \u043B\u044E\u0434\u0438 \u0443
+        \u043A\u043E\u0442\u043E\u0440\u044B\u0445 \u0443\u0436\u0435 \u0435\u0441\u0442\u044C
+        \u0441\u0432\u043E\u044F \u043A\u0432\u0430\u0440\u0442\u0438\u0440\u0430
+        \u0438 \u0432\u0441\u0435 \u0432 \u043F\u043E\u0440\u044F\u0434\u043A\u0435
+        \u0441 \u0437\u0443\u0431\u0430\u043C\u0438"
+      face: 1
+      body: 1
+      timer: 6
+      firstButton: 
+      secondButton: 
+      clip: {fileID: 8300000, guid: c2556a86d91b24b8e9f0a515ba1aa990, type: 3}
+      sprite: {fileID: 0}
+    - previousFirst: 0
+      previousSecond: 0
+      type: 3
+      text: "\u0430\u0443\u0444!"
+      face: 1
+      body: 1
+      timer: 4
+      firstButton: "\u0430\u0443\u0444!"
+      secondButton: 
+      clip: {fileID: 8300000, guid: d8cb0c6abbd354530935830af2bba573, type: 3}
+      sprite: {fileID: 0}
+    music: {fileID: 8300000, guid: 3c85fb29b5fae491cb175727f2ae8126, type: 3}
+    completable: 1
+  - name: script5
+    condition:
+      completedEvents: []
+      isWoman: 0
+      minRelationship: 0
+      maxRelationship: 0
+    steps:
+    - previousFirst: 0
+      previousSecond: 0
+      type: 3
+      text: "\u041C\u043D\u0435 \u0441\u043A\u0430\u0437\u0430\u043B\u0438 \u0438\u0437
+        \u043A\u0430\u043D\u0430\u043B\u0438\u0437\u0430\u0446\u0438\u0438 \u0441\u0431\u0435\u0436\u0430\u043B\u043E
+        \u0433\u043E\u0432\u043D\u043E"
+      face: 3
+      body: 2
+      timer: 1000
+      firstButton: "\u0438 \u0447\u0442\u043E?"
+      secondButton: 
+      clip: {fileID: 8300000, guid: c2556a86d91b24b8e9f0a515ba1aa990, type: 3}
+      sprite: {fileID: 0}
+    - previousFirst: 0
+      previousSecond: 0
+      type: 3
+      text: "\u042F \u0442\u0435\u0431\u044F \u043D\u0435 \u0432\u044B\u0434\u0430\u043B"
+      face: 2
+      body: 2
+      timer: 1000
+      firstButton: "\u043E\u043A"
+      secondButton: 
+      clip: {fileID: 8300000, guid: c2556a86d91b24b8e9f0a515ba1aa990, type: 3}
+      sprite: {fileID: 0}
+    music: {fileID: 8300000, guid: e73e56102a47049a18417e98e9413bce, type: 3}
+    completable: 1
+  - name: quote6
+    condition:
+      completedEvents: []
+      isWoman: 0
+      minRelationship: 0
+      maxRelationship: 0
+    steps:
+    - previousFirst: 0
+      previousSecond: 0
+      type: 1
+      text: "\u0422\u0430\u043A"
+      face: 0
+      body: 6
+      timer: 4
+      firstButton: 
+      secondButton: 
+      clip: {fileID: 8300000, guid: d8cb0c6abbd354530935830af2bba573, type: 3}
+      sprite: {fileID: 0}
+    - previousFirst: 0
+      previousSecond: 0
+      type: 2
+      text: "\u041C\u0423\u0414\u0420\u041E\u0421\u0422\u042C"
+      face: 0
+      body: 6
+      timer: 4
+      firstButton: "\u0434\u0430 \u0443\u0436"
+      secondButton: 
+      clip: {fileID: 0}
+      sprite: {fileID: 0}
+    - previousFirst: 0
+      previousSecond: 0
+      type: 0
+      text: "\u041B\u0435\u0432 \u043A\u043E\u043D\u0435\u0447\u043D\u043E \u0446\u0430\u0440\u044C
+        \u0437\u0432\u0435\u0440\u0435\u0439  \u043D\u043E \u0437\u0430\u0442\u043E
+        \u0432\u043E\u043B\u043A \u0432 \u0446\u0438\u0440\u043A\u0435 \u043D\u0435
+        \u0432\u044B\u0441\u0442\u0443\u043F\u0430\u0435\u0442"
+      face: 1
+      body: 1
+      timer: 6
+      firstButton: 
+      secondButton: 
+      clip: {fileID: 8300000, guid: c2556a86d91b24b8e9f0a515ba1aa990, type: 3}
+      sprite: {fileID: 0}
+    - previousFirst: 0
+      previousSecond: 0
+      type: 3
+      text: "\u0430\u0443\u0444!"
+      face: 1
+      body: 1
+      timer: 4
+      firstButton: "\u0430\u0443\u0444!"
+      secondButton: 
+      clip: {fileID: 8300000, guid: d8cb0c6abbd354530935830af2bba573, type: 3}
+      sprite: {fileID: 0}
+    music: {fileID: 8300000, guid: 3c85fb29b5fae491cb175727f2ae8126, type: 3}
+    completable: 1
+  - name: history6
+    condition:
+      completedEvents: []
+      isWoman: 0
+      minRelationship: 0
+      maxRelationship: 0
+    steps:
+    - previousFirst: 0
+      previousSecond: 0
+      type: 1
+      text: 
+      face: 1
+      body: 6
+      timer: 3
+      firstButton: 
+      secondButton: 
+      clip: {fileID: 8300000, guid: 37676b7d3799d4d6cb83ee64556f60af, type: 3}
+      sprite: {fileID: 0}
+    - previousFirst: 0
+      previousSecond: 0
+      type: 3
+      text: "\u041C\u044B \u0441\u043F\u043E\u0441\u043E\u0431\u043D\u044B \u043F\u0440\u043E\u0436\u0438\u0442\u044C
+        \u0431\u043E\u043B\u044C\u0448\u0435 \u043D\u0435\u0434\u0435\u043B\u0438
+        \u0431\u0435\u0437 \u0435\u0434\u044B, \u043F\u0440\u0438 \u044D\u0442\u043E\u043C
+        \u043F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438 \u043D\u0435
+        \u0441\u043D\u0438\u0436\u0430\u044F \u0430\u043A\u0442\u0438\u0432\u043D\u043E\u0441\u0442\u0438"
+      face: 2
+      body: 5
+      timer: 1000
+      firstButton: "\u043E\u043A"
+      secondButton: 
+      clip: {fileID: 8300000, guid: 457acbad1eb9e4f218633e62960903de, type: 3}
+      sprite: {fileID: 0}
+    music: {fileID: 8300000, guid: 6377428bcc8954d5185621fd0a752ad2, type: 3}
+    completable: 1
   - name: anek3
     condition:
       completedEvents: []
@@ -442,6 +1031,460 @@ MonoBehaviour:
       clip: {fileID: 8300000, guid: 457acbad1eb9e4f218633e62960903de, type: 3}
       sprite: {fileID: 0}
     music: {fileID: 8300000, guid: 9405321e5d3e0401a952e85472d386d2, type: 3}
+    completable: 1
+  - name: script4
+    condition:
+      completedEvents: []
+      isWoman: 0
+      minRelationship: 0
+      maxRelationship: 0
+    steps:
+    - previousFirst: 0
+      previousSecond: 0
+      type: 3
+      text: "\u0415\u0441\u043B\u0438 \u0431\u0443\u0434\u0443\u0442 \u043F\u0440\u043E\u0431\u043B\u0435\u043C\u044B
+        \u0443 \u0442\u0435\u0431\u044F \u0436\u0435 \u0435\u0441\u0442\u044C \u043C\u043E\u0439
+        \u043D\u043E\u043C\u0435\u0440?"
+      face: 0
+      body: 6
+      timer: 1000
+      firstButton: "\u0435\u0441\u0442\u044C."
+      secondButton: 
+      clip: {fileID: 8300000, guid: 59e5f7451829543d3b18d6388f4a6c86, type: 3}
+      sprite: {fileID: 0}
+    - previousFirst: 0
+      previousSecond: 0
+      type: 1
+      text: "\u0423\u0434\u0430\u043B\u0438"
+      face: 3
+      body: 6
+      timer: 4
+      firstButton: 
+      secondButton: 
+      clip: {fileID: 8300000, guid: 59e5f7451829543d3b18d6388f4a6c86, type: 3}
+      sprite: {fileID: 0}
+    music: {fileID: 8300000, guid: 3c85fb29b5fae491cb175727f2ae8126, type: 3}
+    completable: 1
+  - name: meme3
+    condition:
+      completedEvents: []
+      isWoman: 0
+      minRelationship: 0
+      maxRelationship: 0
+    steps:
+    - previousFirst: 0
+      previousSecond: 0
+      type: 1
+      text: "\u0418\u0442\u0430\u043A, \u0432\u0430\u0448\u0435\u043C\u0443 \u0432\u043D\u0438\u043C\u0430\u043D\u0438\u044E "
+      face: 0
+      body: 6
+      timer: 4
+      firstButton: 
+      secondButton: 
+      clip: {fileID: 8300000, guid: d8cb0c6abbd354530935830af2bba573, type: 3}
+      sprite: {fileID: 0}
+    - previousFirst: 0
+      previousSecond: 0
+      type: 2
+      text: "\u041C\u0415\u041C\u0415\u0421"
+      face: 2
+      body: 6
+      timer: 3
+      firstButton: "\u0434\u0430 \u0443\u0436"
+      secondButton: 
+      clip: {fileID: 0}
+      sprite: {fileID: 0}
+    - previousFirst: 0
+      previousSecond: 0
+      type: 7
+      text: 
+      face: 1
+      body: 2
+      timer: 1000
+      firstButton: "\u0434\u0430 \u0443\u0436"
+      secondButton: 
+      clip: {fileID: 0}
+      sprite: {fileID: 21300000, guid: dad2f482aec2c4de6b1fd43add423454, type: 3}
+    music: {fileID: 8300000, guid: 866038a612bbf4aeeabce4c3a304b368, type: 3}
+    completable: 1
+  - name: script3
+    condition:
+      completedEvents: []
+      isWoman: 0
+      minRelationship: 0
+      maxRelationship: 0
+    steps:
+    - previousFirst: 0
+      previousSecond: 0
+      type: 4
+      text: "\u0411\u0440\u0430\u0442, \u0431\u0443\u0434\u0435\u0448\u044C \u043C\u043E\u0440\u043E\u0436\u0435\u043D\u043E\u0435
+        \u0432 \u0441\u0442\u0430\u043A\u0430\u043D\u0447\u0438\u043A\u0435?"
+      face: 0
+      body: 2
+      timer: 1000
+      firstButton: "\u0412 \u0441\u0442\u0430\u043A\u0430\u043D\u0447\u0438\u043A\u0435
+        \u0434\u043E\u043B\u0436\u043D\u043E \u0431\u044B\u0442\u044C \u043F\u0438\u0432\u043A\u043E"
+      secondButton: "\u0431\u0440\u0430\u0442, \u0431\u0443\u0434\u0443"
+      clip: {fileID: 8300000, guid: 457acbad1eb9e4f218633e62960903de, type: 3}
+      sprite: {fileID: 0}
+    - previousFirst: 1
+      previousSecond: 0
+      type: 2
+      text: "\u043F\u043E\u0433\u043D\u0430\u043B\u0438  \u0437\u0430 \u043F\u0435\u0432\u043A\u043E\u043C"
+      face: 0
+      body: 3
+      timer: 3
+      firstButton: 
+      secondButton: 
+      clip: {fileID: 8300000, guid: d8cb0c6abbd354530935830af2bba573, type: 3}
+      sprite: {fileID: 0}
+    - previousFirst: 0
+      previousSecond: 1
+      type: 2
+      text: "\u0422\u044B \u043F\u0440\u0435\u0434\u0430\u043B \u043F\u0435\u0432\u043A\u043E!!1"
+      face: 2
+      body: 6
+      timer: 3
+      firstButton: 
+      secondButton: 
+      clip: {fileID: 8300000, guid: d8cb0c6abbd354530935830af2bba573, type: 3}
+      sprite: {fileID: 0}
+    - previousFirst: 0
+      previousSecond: 0
+      type: 1
+      text: "\u041F\u0438\u0444\u043A\u043E \u043A\u0430\u0439\u0444"
+      face: 2
+      body: 5
+      timer: 3
+      firstButton: 
+      secondButton: 
+      clip: {fileID: 8300000, guid: d8cb0c6abbd354530935830af2bba573, type: 3}
+      sprite: {fileID: 0}
+    music: {fileID: 8300000, guid: 3c85fb29b5fae491cb175727f2ae8126, type: 3}
+    completable: 1
+  - name: meme2
+    condition:
+      completedEvents: []
+      isWoman: 0
+      minRelationship: 0
+      maxRelationship: 0
+    steps:
+    - previousFirst: 0
+      previousSecond: 0
+      type: 1
+      text: "\u0427\u0435\u0442 \u0441\u043A\u0443\u0447\u043D\u043E"
+      face: 0
+      body: 6
+      timer: 4
+      firstButton: 
+      secondButton: 
+      clip: {fileID: 8300000, guid: d8cb0c6abbd354530935830af2bba573, type: 3}
+      sprite: {fileID: 0}
+    - previousFirst: 0
+      previousSecond: 0
+      type: 7
+      text: 
+      face: 1
+      body: 2
+      timer: 1000
+      firstButton: "\u0434\u0430 \u0443\u0436"
+      secondButton: 
+      clip: {fileID: 0}
+      sprite: {fileID: 21300000, guid: 4d8fe379096694c8cb6d1d8c6d93cfc6, type: 3}
+    music: {fileID: 8300000, guid: 866038a612bbf4aeeabce4c3a304b368, type: 3}
+    completable: 1
+  - name: quote10
+    condition:
+      completedEvents: []
+      isWoman: 0
+      minRelationship: 0
+      maxRelationship: 0
+    steps:
+    - previousFirst: 0
+      previousSecond: 0
+      type: 1
+      text: "\u0422\u0430\u043A"
+      face: 0
+      body: 6
+      timer: 4
+      firstButton: 
+      secondButton: 
+      clip: {fileID: 8300000, guid: d8cb0c6abbd354530935830af2bba573, type: 3}
+      sprite: {fileID: 0}
+    - previousFirst: 0
+      previousSecond: 0
+      type: 2
+      text: "\u041C\u0423\u0414\u0420\u041E\u0421\u0422\u042C"
+      face: 0
+      body: 6
+      timer: 4
+      firstButton: "\u0434\u0430 \u0443\u0436"
+      secondButton: 
+      clip: {fileID: 0}
+      sprite: {fileID: 0}
+    - previousFirst: 0
+      previousSecond: 0
+      type: 0
+      text: "\u0415\u0441\u043B\u0438 \u0442\u0435\u0431\u0435 \u0441\u0442\u0430\u043B\u043E
+        \u043F\u043B\u043E\u0445\u043E \u043D\u0430 \u0443\u043B\u0438\u0446\u0435
+        \u0432\u0441\u043F\u043E\u043C\u043D\u0438 \u0431\u044B\u043B\u043E \u043B\u0438
+        \u0442\u0435\u0431\u0435 \u0445\u043E\u0440\u043E\u0448\u043E"
+      face: 1
+      body: 1
+      timer: 6
+      firstButton: 
+      secondButton: 
+      clip: {fileID: 8300000, guid: c2556a86d91b24b8e9f0a515ba1aa990, type: 3}
+      sprite: {fileID: 0}
+    - previousFirst: 0
+      previousSecond: 0
+      type: 3
+      text: "\u0430\u0443\u0444!"
+      face: 1
+      body: 1
+      timer: 4
+      firstButton: "\u0430\u0443\u0444!"
+      secondButton: 
+      clip: {fileID: 8300000, guid: d8cb0c6abbd354530935830af2bba573, type: 3}
+      sprite: {fileID: 0}
+    music: {fileID: 8300000, guid: 3c85fb29b5fae491cb175727f2ae8126, type: 3}
+    completable: 1
+  - name: anek9
+    condition:
+      completedEvents: []
+      isWoman: 0
+      minRelationship: 0
+      maxRelationship: 0
+    steps:
+    - previousFirst: 0
+      previousSecond: 0
+      type: 2
+      text: "\u0422\u0430\u043A\u043E\u0439 \u0432\u043E\u043F\u0440\u043E\u0441"
+      face: 2
+      body: 6
+      timer: 4
+      firstButton: 
+      secondButton: 
+      clip: {fileID: 8300000, guid: bff394af233e8461fadd67ef345543af, type: 3}
+      sprite: {fileID: 0}
+    - previousFirst: 0
+      previousSecond: 0
+      type: 3
+      text: "\u0423 \u043C\u0435\u043D\u044F \u043F\u0443\u043F\u043E\u043A \u043D\u0435
+        \u043D\u0430\u0440\u0443\u0436\u0443, \u0442\u0435\u043F\u0435\u0440\u044C
+        \u0442\u044B \u0431\u0443\u0434\u0435\u0448\u044C \u0441\u043E \u043C\u043D\u043E\u0439
+        \u0432\u0441\u0442\u0440\u0435\u0447\u0430\u0442\u044C\u0441\u044F?"
+      face: 1
+      body: 2
+      timer: 1000
+      firstButton: "\u043D\u0435\u0442"
+      secondButton: 
+      clip: {fileID: 8300000, guid: 457acbad1eb9e4f218633e62960903de, type: 3}
+      sprite: {fileID: 0}
+    music: {fileID: 8300000, guid: 6377428bcc8954d5185621fd0a752ad2, type: 3}
+    completable: 1
+  - name: meme4
+    condition:
+      completedEvents: []
+      isWoman: 0
+      minRelationship: 0
+      maxRelationship: 0
+    steps:
+    - previousFirst: 0
+      previousSecond: 0
+      type: 2
+      text: "\u0421\u043A\u0443\u0447\u0430\u043B? \u042F \u0442\u043E\u0436\u0435"
+      face: 0
+      body: 6
+      timer: 7
+      firstButton: 
+      secondButton: 
+      clip: {fileID: 8300000, guid: d8cb0c6abbd354530935830af2bba573, type: 3}
+      sprite: {fileID: 0}
+    - previousFirst: 0
+      previousSecond: 0
+      type: 2
+      text: "\u0414\u0415\u0420\u0416\u0418 \u041C\u0415\u041C"
+      face: 2
+      body: 6
+      timer: 4
+      firstButton: "\u0434\u0430 \u0443\u0436"
+      secondButton: 
+      clip: {fileID: 0}
+      sprite: {fileID: 0}
+    - previousFirst: 0
+      previousSecond: 0
+      type: 7
+      text: 
+      face: 1
+      body: 2
+      timer: 1000
+      firstButton: "\u0434\u0430 \u0443\u0436"
+      secondButton: 
+      clip: {fileID: 0}
+      sprite: {fileID: 21300000, guid: a34d9c495a47a479d8f315eb8a6a2876, type: 3}
+    music: {fileID: 8300000, guid: 866038a612bbf4aeeabce4c3a304b368, type: 3}
+    completable: 1
+  - name: history7
+    condition:
+      completedEvents: []
+      isWoman: 0
+      minRelationship: 0
+      maxRelationship: 0
+    steps:
+    - previousFirst: 0
+      previousSecond: 0
+      type: 1
+      text: 
+      face: 1
+      body: 6
+      timer: 3
+      firstButton: 
+      secondButton: 
+      clip: {fileID: 8300000, guid: 37676b7d3799d4d6cb83ee64556f60af, type: 3}
+      sprite: {fileID: 0}
+    - previousFirst: 0
+      previousSecond: 0
+      type: 3
+      text: "\u041E\u0431\u043E\u043D\u044F\u043D\u0438\u0435 \u0443 \u043D\u0430\u0441
+        \u043F\u0440\u0438\u043C\u0435\u0440\u043D\u043E \u0432\u043E \u043C\u043D\u043E\u0433\u043E
+        \u0440\u0430\u0437 \u043E\u0441\u0442\u0440\u0435\u0435, \u0447\u0435\u043C
+        \u0443 \u043B\u044E\u0434\u0435\u0439. \u0417\u0430\u043F\u0430\u0445 \u0432\u043E\u043B\u043A\u0438
+        \u0441\u043F\u043E\u0441\u043E\u0431\u043D\u044B \u043F\u043E\u0447\u0443\u0432\u0441\u0442\u0432\u043E\u0432\u0430\u0442\u044C
+        \u043D\u0430 \u0440\u0430\u0441\u0441\u0442\u043E\u044F\u043D\u0438\u0438
+        \u0434\u043E 15-20 \u043A\u043C. \u041F\u0440\u0438\u0437\u043D\u0430\u0432\u0430\u0439\u0441\u044F,
+        \u043F\u0443\u043A\u043D\u0443\u043B?"
+      face: 2
+      body: 5
+      timer: 1000
+      firstButton: "\u0434\u0430"
+      secondButton: 
+      clip: {fileID: 8300000, guid: 457acbad1eb9e4f218633e62960903de, type: 3}
+      sprite: {fileID: 0}
+    music: {fileID: 8300000, guid: 6377428bcc8954d5185621fd0a752ad2, type: 3}
+    completable: 1
+  - name: meme6
+    condition:
+      completedEvents: []
+      isWoman: 0
+      minRelationship: 0
+      maxRelationship: 0
+    steps:
+    - previousFirst: 0
+      previousSecond: 0
+      type: 2
+      text: "\u041E\u0434\u0438\u043D \u0442\u0443\u0442 \u043E\u0442\u0434\u044B\u0445\u0430\u0435\u0448\u044C?"
+      face: 0
+      body: 6
+      timer: 7
+      firstButton: 
+      secondButton: 
+      clip: {fileID: 8300000, guid: d8cb0c6abbd354530935830af2bba573, type: 3}
+      sprite: {fileID: 0}
+    - previousFirst: 0
+      previousSecond: 0
+      type: 2
+      text: "\u0414\u0415\u0420\u0416\u0418 \u041C\u0415\u041C"
+      face: 2
+      body: 6
+      timer: 4
+      firstButton: "\u0434\u0430 \u0443\u0436"
+      secondButton: 
+      clip: {fileID: 0}
+      sprite: {fileID: 0}
+    - previousFirst: 0
+      previousSecond: 0
+      type: 7
+      text: 
+      face: 1
+      body: 2
+      timer: 1000
+      firstButton: "\u0434\u0430 \u0443\u0436"
+      secondButton: 
+      clip: {fileID: 0}
+      sprite: {fileID: 21300000, guid: a3807922fbd70453ab09784472c27a06, type: 3}
+    music: {fileID: 8300000, guid: 866038a612bbf4aeeabce4c3a304b368, type: 3}
+    completable: 1
+  - name: history2
+    condition:
+      completedEvents: []
+      isWoman: 0
+      minRelationship: 0
+      maxRelationship: 0
+    steps:
+    - previousFirst: 0
+      previousSecond: 0
+      type: 3
+      text: "\u041C\u044B \u0432\u043E\u043B\u043A\u0438, \u043D\u0435 \u0442\u043E\u043B\u044C\u043A\u043E
+        \u0441\u0438\u043B\u044C\u043D\u044B\u0435, \u043D\u043E \u0438 \u043B\u043E\u0432\u043A\u0438\u0435.
+        \u041C\u043E\u0436\u0435\u043C \u0434\u0430\u0436\u0435 \u043F\u0440\u044B\u0433\u0430\u0442\u044C
+        \u0432 \u0432\u044B\u0441\u043E\u0442\u0443 \u0434\u043E 5 \u043C\u0435\u0442\u0440\u043E\u0432."
+      face: 0
+      body: 2
+      timer: 1000
+      firstButton: "\u043E\u043A"
+      secondButton: 
+      clip: {fileID: 8300000, guid: 457acbad1eb9e4f218633e62960903de, type: 3}
+      sprite: {fileID: 0}
+    music: {fileID: 8300000, guid: a3eab3f4d88b448d78d2914c83fa2a96, type: 3}
+    completable: 1
+  - name: quote15
+    condition:
+      completedEvents: []
+      isWoman: 0
+      minRelationship: 0
+      maxRelationship: 0
+    steps:
+    - previousFirst: 0
+      previousSecond: 0
+      type: 1
+      text: "\u0422\u0430\u043A"
+      face: 0
+      body: 6
+      timer: 4
+      firstButton: 
+      secondButton: 
+      clip: {fileID: 8300000, guid: d8cb0c6abbd354530935830af2bba573, type: 3}
+      sprite: {fileID: 0}
+    - previousFirst: 0
+      previousSecond: 0
+      type: 2
+      text: "\u041C\u0423\u0414\u0420\u041E\u0421\u0422\u042C"
+      face: 0
+      body: 6
+      timer: 4
+      firstButton: "\u0434\u0430 \u0443\u0436"
+      secondButton: 
+      clip: {fileID: 0}
+      sprite: {fileID: 0}
+    - previousFirst: 0
+      previousSecond: 0
+      type: 0
+      text: "\u0438\u043D\u0442\u0435\u0440\u0435\u0441\u043D\u043E, \u043E \u0447\u0435\u043C
+        \u043C\u0435\u0447\u0442\u0430\u044E\u0442 \u043B\u044E\u0434\u0438 \u0443
+        \u043A\u043E\u0442\u043E\u0440\u044B\u0445 \u0443\u0436\u0435 \u0435\u0441\u0442\u044C
+        \u0441\u0432\u043E\u044F \u043A\u0432\u0430\u0440\u0442\u0438\u0440\u0430
+        \u0438 \u0432\u0441\u0435 \u0432 \u043F\u043E\u0440\u044F\u0434\u043A\u0435
+        \u0441 \u0437\u0443\u0431\u0430\u043C\u0438"
+      face: 1
+      body: 1
+      timer: 6
+      firstButton: 
+      secondButton: 
+      clip: {fileID: 8300000, guid: c2556a86d91b24b8e9f0a515ba1aa990, type: 3}
+      sprite: {fileID: 0}
+    - previousFirst: 0
+      previousSecond: 0
+      type: 3
+      text: "\u0430\u0443\u0444!"
+      face: 1
+      body: 1
+      timer: 4
+      firstButton: "\u0430\u0443\u0444!"
+      secondButton: 
+      clip: {fileID: 8300000, guid: d8cb0c6abbd354530935830af2bba573, type: 3}
+      sprite: {fileID: 0}
+    music: {fileID: 8300000, guid: 3c85fb29b5fae491cb175727f2ae8126, type: 3}
     completable: 1
   - name: anek5
     condition:
@@ -479,6 +1522,677 @@ MonoBehaviour:
       clip: {fileID: 8300000, guid: 457acbad1eb9e4f218633e62960903de, type: 3}
       sprite: {fileID: 0}
     music: {fileID: 8300000, guid: 6377428bcc8954d5185621fd0a752ad2, type: 3}
+    completable: 1
+  - name: history3
+    condition:
+      completedEvents: []
+      isWoman: 0
+      minRelationship: 0
+      maxRelationship: 0
+    steps:
+    - previousFirst: 0
+      previousSecond: 0
+      type: 3
+      text: "\u041A\u0440\u0443\u043F\u043D\u0430\u044F \u0432\u043E\u043B\u0447\u044C\u044F
+        \u0441\u0442\u0430\u044F \u043C\u043E\u0436\u0435\u0442 \u0441\u043E\u0441\u0442\u043E\u044F\u0442\u044C
+        \u0438\u0437 35-40 \u043E\u0441\u043E\u0431\u0435\u0439, \u043D\u043E \u044F
+        \u043E\u0434\u0438\u043D...."
+      face: 0
+      body: 5
+      timer: 1000
+      firstButton: "\u043E\u043A"
+      secondButton: 
+      clip: {fileID: 8300000, guid: 457acbad1eb9e4f218633e62960903de, type: 3}
+      sprite: {fileID: 0}
+    music: {fileID: 8300000, guid: 6377428bcc8954d5185621fd0a752ad2, type: 3}
+    completable: 1
+  - name: anek7
+    condition:
+      completedEvents: []
+      isWoman: 0
+      minRelationship: 0
+      maxRelationship: 0
+    steps:
+    - previousFirst: 0
+      previousSecond: 0
+      type: 0
+      text: "\u0410\u0425\u0410\u0425\u0425\u0410 \u0437\u0430\u0446\u0435\u043D\u0438 "
+      face: 2
+      body: 6
+      timer: 4
+      firstButton: 
+      secondButton: 
+      clip: {fileID: 8300000, guid: bff394af233e8461fadd67ef345543af, type: 3}
+      sprite: {fileID: 0}
+    - previousFirst: 0
+      previousSecond: 0
+      type: 3
+      text: "\u043C\u0430\u043B\u044C\u0447\u0438\u043A: \u044F \u0437\u0430 \u0442\u0435\u0431\u044F
+        \u0436\u0438\u0437\u043D\u044C \u043E\u0442\u0434\u0430\u043C   \u043C\u0443\u0436\u0447\u0438\u043D\u0430:
+        \u043E\u0441\u0442\u0430\u0432\u044C, \u044F \u0441\u0430\u043C \u043E\u0442\u043C\u043E\u044E
+        \u044D\u0442\u0443 \u0442\u0430\u0440\u0435\u043B\u043A\u0443 \u043E\u0442
+        \u0433\u0440\u0435\u0447\u043A\u0438"
+      face: 1
+      body: 2
+      timer: 1000
+      firstButton: "\u0434\u0430 \u0443\u0436"
+      secondButton: 
+      clip: {fileID: 8300000, guid: 457acbad1eb9e4f218633e62960903de, type: 3}
+      sprite: {fileID: 0}
+    music: {fileID: 8300000, guid: 6377428bcc8954d5185621fd0a752ad2, type: 3}
+    completable: 1
+  - name: script1
+    condition:
+      completedEvents: []
+      isWoman: 0
+      minRelationship: 0
+      maxRelationship: 0
+    steps:
+    - previousFirst: 0
+      previousSecond: 0
+      type: 4
+      text: "\u0421\u043A\u043E\u043B\u044C\u043A\u043E \u0431\u0443\u0434\u0435\u0442
+        \u043A\u043E\u0440\u0435\u043D\u044C \u0438\u0437 9?"
+      face: 0
+      body: 5
+      timer: 15
+      firstButton: 3
+      secondButton: 9
+      clip: {fileID: 8300000, guid: d8cb0c6abbd354530935830af2bba573, type: 3}
+      sprite: {fileID: 0}
+    - previousFirst: 0
+      previousSecond: 1
+      type: 1
+      text: "\u0422\u044B \u0434\u0443\u043C\u0430\u0435\u0448\u044C \u044F \u0437\u043D\u0430\u044E
+        \u043F\u0440\u0430\u0432\u0438\u043B\u044C\u043D\u044B\u0439 \u043E\u0442\u0432\u0435\u0442?
+        \u042F \u0432\u043E\u043B\u043A"
+      face: 3
+      body: 6
+      timer: 6
+      firstButton: 
+      secondButton: 
+      clip: {fileID: 8300000, guid: 645abac6d5ca34dbd82281a3f8c38d9d, type: 3}
+      sprite: {fileID: 0}
+    - previousFirst: 1
+      previousSecond: 0
+      type: 4
+      text: "\u0410 \u043B\u043E\u0433\u0430\u0440\u0438\u0444\u043C \u0442\u0440\u0435\u0445
+        \u043F\u043E \u043E\u0441\u043D\u043E\u0432\u0430\u043D\u0438\u044E 27?"
+      face: 3
+      body: 5
+      timer: 15
+      firstButton: 3
+      secondButton: 9
+      clip: {fileID: 8300000, guid: 645abac6d5ca34dbd82281a3f8c38d9d, type: 3}
+      sprite: {fileID: 0}
+    - previousFirst: 1
+      previousSecond: 0
+      type: 2
+      text: "\u0424\u0418\u0413\u0410 \u0422\u042B \u041C\u0410\u0422\u0415\u041C\u0410\u0422\u0418\u041A"
+      face: 2
+      body: 6
+      timer: 3
+      firstButton: 
+      secondButton: 
+      clip: {fileID: 8300000, guid: 280c78b8ace7c49ab86896a703eb3480, type: 3}
+      sprite: {fileID: 0}
+    - previousFirst: 0
+      previousSecond: 1
+      type: 1
+      text: "\u0422\u044B \u0434\u0443\u043C\u0430\u0435\u0448\u044C \u044F \u0437\u043D\u0430\u044E
+        \u043F\u0440\u0430\u0432\u0438\u043B\u044C\u043D\u044B\u0439 \u043E\u0442\u0432\u0435\u0442?
+        \u042F \u0432\u043E\u043B\u043A"
+      face: 3
+      body: 6
+      timer: 6
+      firstButton: 
+      secondButton: 
+      clip: {fileID: 8300000, guid: 645abac6d5ca34dbd82281a3f8c38d9d, type: 3}
+      sprite: {fileID: 0}
+    music: {fileID: 8300000, guid: 3c85fb29b5fae491cb175727f2ae8126, type: 3}
+    completable: 1
+  - name: quote7
+    condition:
+      completedEvents: []
+      isWoman: 0
+      minRelationship: 0
+      maxRelationship: 0
+    steps:
+    - previousFirst: 0
+      previousSecond: 0
+      type: 1
+      text: "\u0422\u0430\u043A"
+      face: 0
+      body: 6
+      timer: 4
+      firstButton: 
+      secondButton: 
+      clip: {fileID: 8300000, guid: d8cb0c6abbd354530935830af2bba573, type: 3}
+      sprite: {fileID: 0}
+    - previousFirst: 0
+      previousSecond: 0
+      type: 2
+      text: "\u041C\u0423\u0414\u0420\u041E\u0421\u0422\u042C"
+      face: 0
+      body: 6
+      timer: 4
+      firstButton: "\u0434\u0430 \u0443\u0436"
+      secondButton: 
+      clip: {fileID: 0}
+      sprite: {fileID: 0}
+    - previousFirst: 0
+      previousSecond: 0
+      type: 0
+      text: "\u0417\u0430\u043F\u043E\u043C\u043D\u0438 \u0431\u0440\u0430\u0442 
+        \u0441\u0434\u0435\u043B\u0430\u0439 \u0434\u0435\u043B\u043E \u0438 \u0434\u0435\u043B\u043E
+        \u0441\u0434\u0435\u043B\u0430\u043D\u043E"
+      face: 1
+      body: 1
+      timer: 6
+      firstButton: 
+      secondButton: 
+      clip: {fileID: 8300000, guid: c2556a86d91b24b8e9f0a515ba1aa990, type: 3}
+      sprite: {fileID: 0}
+    - previousFirst: 0
+      previousSecond: 0
+      type: 3
+      text: "\u0430\u0443\u0444!"
+      face: 1
+      body: 1
+      timer: 4
+      firstButton: "\u0430\u0443\u0444!"
+      secondButton: 
+      clip: {fileID: 8300000, guid: d8cb0c6abbd354530935830af2bba573, type: 3}
+      sprite: {fileID: 0}
+    music: {fileID: 8300000, guid: 3c85fb29b5fae491cb175727f2ae8126, type: 3}
+    completable: 1
+  - name: anek11
+    condition:
+      completedEvents: []
+      isWoman: 0
+      minRelationship: 0
+      maxRelationship: 0
+    steps:
+    - previousFirst: 0
+      previousSecond: 0
+      type: 2
+      text: "\u0412\u041E\u0422 \u042D\u0422\u041E  \u041F\u0420\u0418\u041A\u041E\u041B
+        \u0421\u041B\u0423\u0428\u0410\u0419"
+      face: 2
+      body: 6
+      timer: 4
+      firstButton: 
+      secondButton: 
+      clip: {fileID: 8300000, guid: bff394af233e8461fadd67ef345543af, type: 3}
+      sprite: {fileID: 0}
+    - previousFirst: 0
+      previousSecond: 0
+      type: 3
+      text: "HR \u0432 \u041C\u043E\u0441\u043A\u0432\u0435:  -\u043A\u0430\u043A\u0438\u0435
+        \u0443 \u0432\u0430\u0441 \u0435\u0441\u0442\u044C \u0441\u0443\u043F\u0435\u0440\u0441\u043F\u043E\u0441\u043E\u0431\u043D\u043E\u0441\u0442\u0438
+        ?  HR \u0432 \u0440\u0435\u0433\u0438\u043E\u043D\u0430\u0445:  - \u0441\u0443\u0434\u0438\u043C\u043E\u0441\u0442\u044C
+        \u0435\u0441\u0442\u044C?"
+      face: 1
+      body: 2
+      timer: 1000
+      firstButton: "\u0434\u0430 \u0443\u0436"
+      secondButton: 
+      clip: {fileID: 8300000, guid: 457acbad1eb9e4f218633e62960903de, type: 3}
+      sprite: {fileID: 0}
+    music: {fileID: 8300000, guid: 6377428bcc8954d5185621fd0a752ad2, type: 3}
+    completable: 1
+  - name: meme8
+    condition:
+      completedEvents: []
+      isWoman: 0
+      minRelationship: 0
+      maxRelationship: 0
+    steps:
+    - previousFirst: 0
+      previousSecond: 0
+      type: 1
+      text: "\u041A\u0430\u043A \u0434\u0435\u043B\u0430?"
+      face: 0
+      body: 6
+      timer: 4
+      firstButton: 
+      secondButton: 
+      clip: {fileID: 8300000, guid: d8cb0c6abbd354530935830af2bba573, type: 3}
+      sprite: {fileID: 0}
+    - previousFirst: 0
+      previousSecond: 0
+      type: 2
+      text: "\u0414\u0415\u0420\u0416\u0418 \u041C\u0415\u041C"
+      face: 0
+      body: 6
+      timer: 4
+      firstButton: "\u0434\u0430 \u0443\u0436"
+      secondButton: 
+      clip: {fileID: 0}
+      sprite: {fileID: 0}
+    - previousFirst: 0
+      previousSecond: 0
+      type: 7
+      text: 
+      face: 1
+      body: 2
+      timer: 1000
+      firstButton: "\u0434\u0430 \u0443\u0436"
+      secondButton: 
+      clip: {fileID: 0}
+      sprite: {fileID: 21300000, guid: 2d78a9665b8f04f4997ca8a94b1f55ce, type: 3}
+    music: {fileID: 8300000, guid: 3c85fb29b5fae491cb175727f2ae8126, type: 3}
+    completable: 1
+  - name: quote1
+    condition:
+      completedEvents: []
+      isWoman: 0
+      minRelationship: 0
+      maxRelationship: 0
+    steps:
+    - previousFirst: 0
+      previousSecond: 0
+      type: 1
+      text: "\u0422\u0430\u043A"
+      face: 0
+      body: 6
+      timer: 4
+      firstButton: 
+      secondButton: 
+      clip: {fileID: 8300000, guid: d8cb0c6abbd354530935830af2bba573, type: 3}
+      sprite: {fileID: 0}
+    - previousFirst: 0
+      previousSecond: 0
+      type: 2
+      text: "\u041C\u0423\u0414\u0420\u041E\u0421\u0422\u042C"
+      face: 0
+      body: 6
+      timer: 4
+      firstButton: "\u0434\u0430 \u0443\u0436"
+      secondButton: 
+      clip: {fileID: 0}
+      sprite: {fileID: 0}
+    - previousFirst: 0
+      previousSecond: 0
+      type: 0
+      text: "\u042F \u0441\u043C\u043E\u0442\u0440\u044E \u0432\u0434\u0430\u043B\u044C
+        \u0438 \u043D\u0438\u0447\u0435\u0433\u043E \u043D\u0435 \u0432\u0438\u0436\u0443
+        \u0443 \u043C\u0435\u043D\u044F \u0437\u0440\u0435\u043D\u0438\u0435 -6"
+      face: 1
+      body: 1
+      timer: 6
+      firstButton: 
+      secondButton: 
+      clip: {fileID: 0}
+      sprite: {fileID: 0}
+    - previousFirst: 0
+      previousSecond: 0
+      type: 3
+      text: "\u0430\u0443\u0444!"
+      face: 1
+      body: 1
+      timer: 4
+      firstButton: "\u0430\u0443\u0444!"
+      secondButton: 
+      clip: {fileID: 8300000, guid: d8cb0c6abbd354530935830af2bba573, type: 3}
+      sprite: {fileID: 0}
+    music: {fileID: 8300000, guid: 3c85fb29b5fae491cb175727f2ae8126, type: 3}
+    completable: 1
+  - name: anek13
+    condition:
+      completedEvents: []
+      isWoman: 0
+      minRelationship: 0
+      maxRelationship: 0
+    steps:
+    - previousFirst: 0
+      previousSecond: 0
+      type: 2
+      text: "\u0421\u0442\u043E\u0439, \u043D\u0435 \u0443\u0445\u043E\u0434\u0438,
+        \u0435\u0449\u0435 \u043E\u0434\u0438\u043D \u043F\u0440\u0435\u043A\u043E\u043B"
+      face: 2
+      body: 6
+      timer: 4
+      firstButton: 
+      secondButton: 
+      clip: {fileID: 8300000, guid: bff394af233e8461fadd67ef345543af, type: 3}
+      sprite: {fileID: 0}
+    - previousFirst: 0
+      previousSecond: 0
+      type: 3
+      text: "\u043C\u043E\u044F \u043C\u0430\u043C\u0430: \u043F\u0440\u0438\u0435\u0437\u0436\u0430\u0435\u0442 
+        \u043C\u043E\u044F \u043F\u0441\u0438\u0445\u043E\u0442\u0435\u0440\u0430\u043F\u0435\u0432\u043A\u0430:
+        \u0432 \u044D\u0442\u043E\u043C \u0433\u043E\u0434\u0443 \u044F \u0437\u0430\u043A\u0440\u043E\u044E
+        \u0438\u043F\u043E\u0442\u0435\u043A\u0443"
+      face: 1
+      body: 2
+      timer: 1000
+      firstButton: "\u0434\u0430 \u0443\u0436"
+      secondButton: 
+      clip: {fileID: 8300000, guid: 457acbad1eb9e4f218633e62960903de, type: 3}
+      sprite: {fileID: 0}
+    music: {fileID: 8300000, guid: 6377428bcc8954d5185621fd0a752ad2, type: 3}
+    completable: 1
+  - name: quote14
+    condition:
+      completedEvents: []
+      isWoman: 0
+      minRelationship: 0
+      maxRelationship: 0
+    steps:
+    - previousFirst: 0
+      previousSecond: 0
+      type: 1
+      text: "\u0422\u0430\u043A"
+      face: 0
+      body: 6
+      timer: 4
+      firstButton: 
+      secondButton: 
+      clip: {fileID: 8300000, guid: d8cb0c6abbd354530935830af2bba573, type: 3}
+      sprite: {fileID: 0}
+    - previousFirst: 0
+      previousSecond: 0
+      type: 2
+      text: "\u041C\u0423\u0414\u0420\u041E\u0421\u0422\u042C"
+      face: 0
+      body: 6
+      timer: 4
+      firstButton: "\u0434\u0430 \u0443\u0436"
+      secondButton: 
+      clip: {fileID: 0}
+      sprite: {fileID: 0}
+    - previousFirst: 0
+      previousSecond: 0
+      type: 0
+      text: "\u043A\u0430\u043A \u043B\u0438\u0447\u043D\u043E\u0441\u0442\u044C
+        \u043C\u0435\u043D\u044F \u0441\u0444\u043E\u0440\u043C\u0438\u0440\u043E\u0432\u0430\u043B
+        \u0430\u0431\u044C\u044E\u0437"
+      face: 1
+      body: 1
+      timer: 4
+      firstButton: 
+      secondButton: 
+      clip: {fileID: 8300000, guid: c2556a86d91b24b8e9f0a515ba1aa990, type: 3}
+      sprite: {fileID: 0}
+    - previousFirst: 0
+      previousSecond: 0
+      type: 3
+      text: "\u0430\u0443\u0444!"
+      face: 1
+      body: 1
+      timer: 4
+      firstButton: "\u0430\u0443\u0444!"
+      secondButton: 
+      clip: {fileID: 8300000, guid: d8cb0c6abbd354530935830af2bba573, type: 3}
+      sprite: {fileID: 0}
+    music: {fileID: 8300000, guid: 3c85fb29b5fae491cb175727f2ae8126, type: 3}
+    completable: 1
+  - name: meme5
+    condition:
+      completedEvents: []
+      isWoman: 0
+      minRelationship: 0
+      maxRelationship: 0
+    steps:
+    - previousFirst: 0
+      previousSecond: 0
+      type: 2
+      text: "\u0423 \u043C\u0435\u043D\u044F \u0435\u0441\u0442\u044C \u0434\u043B\u044F
+        \u0442\u0435\u0431\u044F \u043A\u043E\u0435-\u0447\u0442\u043E"
+      face: 0
+      body: 6
+      timer: 7
+      firstButton: 
+      secondButton: 
+      clip: {fileID: 8300000, guid: d8cb0c6abbd354530935830af2bba573, type: 3}
+      sprite: {fileID: 0}
+    - previousFirst: 0
+      previousSecond: 0
+      type: 2
+      text: "\u0414\u0415\u0420\u0416\u0418 \u041C\u0415\u041C"
+      face: 2
+      body: 6
+      timer: 4
+      firstButton: 
+      secondButton: 
+      clip: {fileID: 0}
+      sprite: {fileID: 0}
+    - previousFirst: 0
+      previousSecond: 0
+      type: 7
+      text: 
+      face: 1
+      body: 2
+      timer: 1000
+      firstButton: "\u0434\u0430 \u0443\u0436"
+      secondButton: 
+      clip: {fileID: 0}
+      sprite: {fileID: 21300000, guid: 48d32e88fbf604a4bbdd54d4abdd7021, type: 3}
+    music: {fileID: 8300000, guid: 866038a612bbf4aeeabce4c3a304b368, type: 3}
+    completable: 1
+  - name: anek12
+    condition:
+      completedEvents: []
+      isWoman: 0
+      minRelationship: 0
+      maxRelationship: 0
+    steps:
+    - previousFirst: 0
+      previousSecond: 0
+      type: 2
+      text: "\u0412\u041E\u0422 \u042D\u0422\u041E  \u041F\u0420\u0418\u041A\u041E\u041B
+        \u0421\u041B\u0423\u0428\u0410\u0419"
+      face: 2
+      body: 6
+      timer: 4
+      firstButton: 
+      secondButton: 
+      clip: {fileID: 8300000, guid: bff394af233e8461fadd67ef345543af, type: 3}
+      sprite: {fileID: 0}
+    - previousFirst: 0
+      previousSecond: 0
+      type: 3
+      text: "\u0414\u0435\u0432\u043E\u0447\u043A\u0430: \u0441\u0442\u043E\u0438\u0442
+        \u043D\u0430 \u0433\u0432\u043E\u0437\u0434\u044F\u0445  \u0416\u0435\u043D\u0449\u0438\u043D\u0430:
+        \u0441\u0442\u043E\u0438\u0442 \u043D\u0430\u0434 \u0434\u0443\u0448\u043E\u0439  
+        \u0412\u043E\u043B\u0447\u0438\u0446\u0430: \u0441\u0442\u043E\u0438\u0442
+        \u043D\u0430 \u0441\u0442\u0440\u0435\u043C\u0435 \u0438 \u043D\u0430 \u0443\u0433\u043B\u044F\u0445
+        \u0434\u043B\u044F \u043A\u0430\u043B\u0438\u043A\u0430"
+      face: 1
+      body: 2
+      timer: 1000
+      firstButton: "\u0434\u0430 \u0443\u0436"
+      secondButton: 
+      clip: {fileID: 8300000, guid: 457acbad1eb9e4f218633e62960903de, type: 3}
+      sprite: {fileID: 0}
+    music: {fileID: 8300000, guid: 6377428bcc8954d5185621fd0a752ad2, type: 3}
+    completable: 1
+  - name: quote4
+    condition:
+      completedEvents: []
+      isWoman: 0
+      minRelationship: 0
+      maxRelationship: 0
+    steps:
+    - previousFirst: 0
+      previousSecond: 0
+      type: 1
+      text: "\u0422\u0430\u043A"
+      face: 0
+      body: 6
+      timer: 4
+      firstButton: 
+      secondButton: 
+      clip: {fileID: 8300000, guid: d8cb0c6abbd354530935830af2bba573, type: 3}
+      sprite: {fileID: 0}
+    - previousFirst: 0
+      previousSecond: 0
+      type: 2
+      text: "\u041C\u0423\u0414\u0420\u041E\u0421\u0422\u042C"
+      face: 0
+      body: 6
+      timer: 4
+      firstButton: "\u0434\u0430 \u0443\u0436"
+      secondButton: 
+      clip: {fileID: 0}
+      sprite: {fileID: 0}
+    - previousFirst: 0
+      previousSecond: 0
+      type: 0
+      text: "\u0417\u0430\u043F\u043E\u043C\u043D\u0438 \u0431\u0440\u0430\u0442
+        \u0440\u0430\u0431\u043E\u0442\u0430 \u043D\u0435 \u0432\u043E\u043B\u043A
+        \u0440\u0430\u0431\u043E\u0442\u0430 \u044D\u0442\u043E \u0432\u043E\u0440\u043A"
+      face: 1
+      body: 1
+      timer: 6
+      firstButton: 
+      secondButton: 
+      clip: {fileID: 8300000, guid: c2556a86d91b24b8e9f0a515ba1aa990, type: 3}
+      sprite: {fileID: 0}
+    - previousFirst: 0
+      previousSecond: 0
+      type: 3
+      text: "\u0430\u0443\u0444!"
+      face: 1
+      body: 1
+      timer: 4
+      firstButton: "\u0430\u0443\u0444!"
+      secondButton: 
+      clip: {fileID: 8300000, guid: d8cb0c6abbd354530935830af2bba573, type: 3}
+      sprite: {fileID: 0}
+    music: {fileID: 8300000, guid: 3c85fb29b5fae491cb175727f2ae8126, type: 3}
+    completable: 1
+  - name: meme9
+    condition:
+      completedEvents: []
+      isWoman: 0
+      minRelationship: 0
+      maxRelationship: 0
+    steps:
+    - previousFirst: 0
+      previousSecond: 0
+      type: 1
+      text: "\u041A\u0430\u043A \u0434\u0435\u043B\u0430?"
+      face: 0
+      body: 6
+      timer: 4
+      firstButton: 
+      secondButton: 
+      clip: {fileID: 8300000, guid: d8cb0c6abbd354530935830af2bba573, type: 3}
+      sprite: {fileID: 0}
+    - previousFirst: 0
+      previousSecond: 0
+      type: 2
+      text: "\u0414\u0415\u0420\u0416\u0418 \u041C\u0415\u041C"
+      face: 0
+      body: 6
+      timer: 4
+      firstButton: "\u0434\u0430 \u0443\u0436"
+      secondButton: 
+      clip: {fileID: 0}
+      sprite: {fileID: 0}
+    - previousFirst: 0
+      previousSecond: 0
+      type: 7
+      text: 
+      face: 1
+      body: 2
+      timer: 1000
+      firstButton: "\u0434\u0430 \u0443\u0436"
+      secondButton: 
+      clip: {fileID: 0}
+      sprite: {fileID: 21300000, guid: c3fef42786de34caf8a559cea2cb20b6, type: 3}
+    music: {fileID: 8300000, guid: 3c85fb29b5fae491cb175727f2ae8126, type: 3}
+    completable: 1
+  - name: history8
+    condition:
+      completedEvents: []
+      isWoman: 0
+      minRelationship: 0
+      maxRelationship: 0
+    steps:
+    - previousFirst: 0
+      previousSecond: 0
+      type: 1
+      text: 
+      face: 1
+      body: 5
+      timer: 3
+      firstButton: 
+      secondButton: 
+      clip: {fileID: 8300000, guid: 37676b7d3799d4d6cb83ee64556f60af, type: 3}
+      sprite: {fileID: 0}
+    - previousFirst: 0
+      previousSecond: 0
+      type: 3
+      text: "\u0412\u0435\u0441 \u0441\u0430\u043C\u043E\u0433\u043E \u043A\u0440\u0443\u043F\u043D\u043E\u0433\u043E
+        \u0432\u043E\u043B\u043A\u0430, \u043A\u043E\u0433\u0434\u0430-\u043B\u0438\u0431\u043E
+        \u0438\u0437\u0432\u0435\u0441\u0442\u043D\u043E\u0433\u043E, \u0441\u043E\u0441\u0442\u0430\u0432\u043B\u044F\u043B
+        86 \u043A\u0438\u043B\u043E\u0433\u0440\u0430\u043C\u043C\u043E\u0432."
+      face: 2
+      body: 6
+      timer: 1000
+      firstButton: "\u043E\u043A"
+      secondButton: 
+      clip: {fileID: 8300000, guid: 457acbad1eb9e4f218633e62960903de, type: 3}
+      sprite: {fileID: 0}
+    music: {fileID: 8300000, guid: a3eab3f4d88b448d78d2914c83fa2a96, type: 3}
+    completable: 1
+  - name: quote5
+    condition:
+      completedEvents: []
+      isWoman: 0
+      minRelationship: 0
+      maxRelationship: 0
+    steps:
+    - previousFirst: 0
+      previousSecond: 0
+      type: 1
+      text: "\u0422\u0430\u043A"
+      face: 0
+      body: 6
+      timer: 4
+      firstButton: 
+      secondButton: 
+      clip: {fileID: 8300000, guid: d8cb0c6abbd354530935830af2bba573, type: 3}
+      sprite: {fileID: 0}
+    - previousFirst: 0
+      previousSecond: 0
+      type: 2
+      text: "\u041C\u0423\u0414\u0420\u041E\u0421\u0422\u042C"
+      face: 0
+      body: 6
+      timer: 4
+      firstButton: "\u0434\u0430 \u0443\u0436"
+      secondButton: 
+      clip: {fileID: 0}
+      sprite: {fileID: 0}
+    - previousFirst: 0
+      previousSecond: 0
+      type: 0
+      text: "\u0423\u0445\u043E\u0436\u0443 \u043D\u0435 \u043F\u043E\u0442\u043E\u043C\u0443
+        \u0447\u0442\u043E \u0436\u0434\u0443\u0442...  \u0430 \u043F\u043E\u0442\u043E\u043C\u0443
+        \u0447\u0442\u043E \u0443\u0445\u043E\u0436\u0443"
+      face: 1
+      body: 1
+      timer: 6
+      firstButton: 
+      secondButton: 
+      clip: {fileID: 8300000, guid: c2556a86d91b24b8e9f0a515ba1aa990, type: 3}
+      sprite: {fileID: 0}
+    - previousFirst: 0
+      previousSecond: 0
+      type: 3
+      text: "\u0430\u0443\u0444!"
+      face: 1
+      body: 1
+      timer: 4
+      firstButton: "\u0430\u0443\u0444!"
+      secondButton: 
+      clip: {fileID: 8300000, guid: d8cb0c6abbd354530935830af2bba573, type: 3}
+      sprite: {fileID: 0}
+    music: {fileID: 8300000, guid: 3c85fb29b5fae491cb175727f2ae8126, type: 3}
     completable: 1
   - name: anek6
     condition:
@@ -540,7 +2254,7 @@ MonoBehaviour:
       sprite: {fileID: 21300000, guid: 13d7fb2b262bf4661abd437163110142, type: 3}
     music: {fileID: 8300000, guid: d1edf63d9d2614d7d969f9d4b1147d77, type: 3}
     completable: 1
-  - name: anek7
+  - name: quote2
     condition:
       completedEvents: []
       isWoman: 0
@@ -549,31 +2263,280 @@ MonoBehaviour:
     steps:
     - previousFirst: 0
       previousSecond: 0
-      type: 0
-      text: "\u0410\u0425\u0410\u0425\u0425\u0410 \u0437\u0430\u0446\u0435\u043D\u0438 "
-      face: 2
+      type: 1
+      text: "\u0422\u0430\u043A"
+      face: 0
       body: 6
       timer: 4
       firstButton: 
       secondButton: 
-      clip: {fileID: 8300000, guid: bff394af233e8461fadd67ef345543af, type: 3}
+      clip: {fileID: 8300000, guid: d8cb0c6abbd354530935830af2bba573, type: 3}
+      sprite: {fileID: 0}
+    - previousFirst: 0
+      previousSecond: 0
+      type: 2
+      text: "\u041C\u0423\u0414\u0420\u041E\u0421\u0422\u042C"
+      face: 0
+      body: 6
+      timer: 4
+      firstButton: "\u0434\u0430 \u0443\u0436"
+      secondButton: 
+      clip: {fileID: 0}
+      sprite: {fileID: 0}
+    - previousFirst: 0
+      previousSecond: 0
+      type: 0
+      text: "\u0423\u0434\u0430\u0440\u0438\u043B \u0434\u0435\u0432\u0443\u0448\u043A\u0443
+        \u043E\u0434\u0438\u043D \u0440\u0430\u0437 \u043D\u0435 \u0431\u0443\u0434\u044C
+        \u0448\u0430\u043A\u0430\u043B\u043E\u043C... \u0434\u043E\u0431\u0435\u0439
+        \u0447\u0442\u043E\u0431\u044B \u043D\u0435 \u043C\u0443\u0447\u0438\u043B\u0430\u0441\u044C"
+      face: 1
+      body: 1
+      timer: 6
+      firstButton: 
+      secondButton: 
+      clip: {fileID: 0}
       sprite: {fileID: 0}
     - previousFirst: 0
       previousSecond: 0
       type: 3
-      text: "\u043C\u0430\u043B\u044C\u0447\u0438\u043A: \u044F \u0437\u0430 \u0442\u0435\u0431\u044F
-        \u0436\u0438\u0437\u043D\u044C \u043E\u0442\u0434\u0430\u043C   \u043C\u0443\u0436\u0447\u0438\u043D\u0430:
-        \u043E\u0441\u0442\u0430\u0432\u044C, \u044F \u0441\u0430\u043C \u043E\u0442\u043C\u043E\u044E
-        \u044D\u0442\u0443 \u0442\u0430\u0440\u0435\u043B\u043A\u0443 \u043E\u0442
-        \u0433\u0440\u0435\u0447\u043A\u0438"
+      text: "\u0430\u0443\u0444!"
+      face: 1
+      body: 1
+      timer: 4
+      firstButton: "\u0430\u0443\u0444!"
+      secondButton: 
+      clip: {fileID: 8300000, guid: d8cb0c6abbd354530935830af2bba573, type: 3}
+      sprite: {fileID: 0}
+    music: {fileID: 8300000, guid: 3c85fb29b5fae491cb175727f2ae8126, type: 3}
+    completable: 1
+  - name: meme10
+    condition:
+      completedEvents: []
+      isWoman: 0
+      minRelationship: 0
+      maxRelationship: 0
+    steps:
+    - previousFirst: 0
+      previousSecond: 0
+      type: 1
+      text: "\u041A\u0430\u043A \u0434\u0435\u043B\u0430?"
+      face: 0
+      body: 6
+      timer: 4
+      firstButton: 
+      secondButton: 
+      clip: {fileID: 8300000, guid: d8cb0c6abbd354530935830af2bba573, type: 3}
+      sprite: {fileID: 0}
+    - previousFirst: 0
+      previousSecond: 0
+      type: 2
+      text: "\u0414\u0415\u0420\u0416\u0418 \u041C\u0415\u041C"
+      face: 0
+      body: 6
+      timer: 4
+      firstButton: "\u0434\u0430 \u0443\u0436"
+      secondButton: 
+      clip: {fileID: 0}
+      sprite: {fileID: 0}
+    - previousFirst: 0
+      previousSecond: 0
+      type: 7
+      text: 
       face: 1
       body: 2
       timer: 1000
       firstButton: "\u0434\u0430 \u0443\u0436"
       secondButton: 
-      clip: {fileID: 8300000, guid: 457acbad1eb9e4f218633e62960903de, type: 3}
+      clip: {fileID: 0}
+      sprite: {fileID: 21300000, guid: 4f250d5bc77a8486faef4f4b7e547cfd, type: 3}
+    music: {fileID: 8300000, guid: 3c85fb29b5fae491cb175727f2ae8126, type: 3}
+    completable: 1
+  - name: quote11
+    condition:
+      completedEvents: []
+      isWoman: 0
+      minRelationship: 0
+      maxRelationship: 0
+    steps:
+    - previousFirst: 0
+      previousSecond: 0
+      type: 1
+      text: "\u0422\u0430\u043A"
+      face: 0
+      body: 6
+      timer: 4
+      firstButton: 
+      secondButton: 
+      clip: {fileID: 8300000, guid: d8cb0c6abbd354530935830af2bba573, type: 3}
+      sprite: {fileID: 0}
+    - previousFirst: 0
+      previousSecond: 0
+      type: 2
+      text: "\u041C\u0423\u0414\u0420\u041E\u0421\u0422\u042C"
+      face: 0
+      body: 6
+      timer: 4
+      firstButton: "\u0434\u0430 \u0443\u0436"
+      secondButton: 
+      clip: {fileID: 0}
+      sprite: {fileID: 0}
+    - previousFirst: 0
+      previousSecond: 0
+      type: 0
+      text: "\u0415\u0441\u043B\u0438 \u043E\u0442\u043D\u043E\u0448\u0435\u043D\u0438\u044F
+        \u043D\u0435 \u0437\u0430\u043A\u0430\u043D\u0447\u0438\u0432\u0430\u044E\u0442\u0441\u044F
+        \u0437\u0430\u0442\u044F\u0436\u043D\u043E\u0439 \u0434\u0435\u043F\u0440\u0435\u0441\u0441\u0438\u0435\u0439,
+        \u0442\u043E \u0441\u0447\u0438\u0442\u0430\u0439 \u043F\u0440\u043E\u0441\u0442\u043E
+        \u0437\u0440\u044F \u0432\u0440\u0435\u043C\u044F \u043F\u043E\u0442\u0440\u0430\u0442\u0438\u043B"
+      face: 1
+      body: 1
+      timer: 8
+      firstButton: 
+      secondButton: 
+      clip: {fileID: 8300000, guid: c2556a86d91b24b8e9f0a515ba1aa990, type: 3}
+      sprite: {fileID: 0}
+    - previousFirst: 0
+      previousSecond: 0
+      type: 3
+      text: "\u0430\u0443\u0444!"
+      face: 1
+      body: 1
+      timer: 4
+      firstButton: "\u0430\u0443\u0444!"
+      secondButton: 
+      clip: {fileID: 8300000, guid: d8cb0c6abbd354530935830af2bba573, type: 3}
+      sprite: {fileID: 0}
+    music: {fileID: 8300000, guid: 3c85fb29b5fae491cb175727f2ae8126, type: 3}
+    completable: 1
+  - name: workout1
+    condition:
+      completedEvents: []
+      isWoman: 0
+      minRelationship: 0
+      maxRelationship: 0
+    steps:
+    - previousFirst: 0
+      previousSecond: 0
+      type: 1
+      text: "\u0422\u0430\u043A, \u0432\u0440\u0435\u043C\u044F \u043F\u043E\u0437\u0430\u043D\u0438\u043C\u0430\u0442\u044C\u0441\u044F"
+      face: 0
+      body: 6
+      timer: 4
+      firstButton: 
+      secondButton: 
+      clip: {fileID: 8300000, guid: d8cb0c6abbd354530935830af2bba573, type: 3}
+      sprite: {fileID: 0}
+    - previousFirst: 0
+      previousSecond: 0
+      type: 9
+      text: "10 \u043E\u0442\u0436\u0443\u043C\u0430\u043D\u0438, \u044F \u0437\u0430\u0441\u0435\u043A"
+      face: 3
+      body: 6
+      timer: 10
+      firstButton: 
+      secondButton: 
+      clip: {fileID: 8300000, guid: d8cb0c6abbd354530935830af2bba573, type: 3}
       sprite: {fileID: 0}
     music: {fileID: 8300000, guid: 6377428bcc8954d5185621fd0a752ad2, type: 3}
+    completable: 1
+  - name: meme12
+    condition:
+      completedEvents: []
+      isWoman: 0
+      minRelationship: 0
+      maxRelationship: 0
+    steps:
+    - previousFirst: 0
+      previousSecond: 0
+      type: 1
+      text: "\u041A\u0430\u043A \u0434\u0435\u043B\u0430?"
+      face: 0
+      body: 6
+      timer: 4
+      firstButton: 
+      secondButton: 
+      clip: {fileID: 8300000, guid: d8cb0c6abbd354530935830af2bba573, type: 3}
+      sprite: {fileID: 0}
+    - previousFirst: 0
+      previousSecond: 0
+      type: 2
+      text: "\u0414\u0415\u0420\u0416\u0418 \u041C\u0415\u041C"
+      face: 0
+      body: 6
+      timer: 4
+      firstButton: "\u0434\u0430 \u0443\u0436"
+      secondButton: 
+      clip: {fileID: 0}
+      sprite: {fileID: 0}
+    - previousFirst: 0
+      previousSecond: 0
+      type: 7
+      text: 
+      face: 1
+      body: 2
+      timer: 1000
+      firstButton: "\u0434\u0430 \u0443\u0436"
+      secondButton: 
+      clip: {fileID: 0}
+      sprite: {fileID: 21300000, guid: efa0b4a1b23454674bc0b18d64eba802, type: 3}
+    music: {fileID: 8300000, guid: 3c85fb29b5fae491cb175727f2ae8126, type: 3}
+    completable: 1
+  - name: quote8
+    condition:
+      completedEvents: []
+      isWoman: 0
+      minRelationship: 0
+      maxRelationship: 0
+    steps:
+    - previousFirst: 0
+      previousSecond: 0
+      type: 1
+      text: "\u0422\u0430\u043A"
+      face: 0
+      body: 6
+      timer: 4
+      firstButton: 
+      secondButton: 
+      clip: {fileID: 8300000, guid: d8cb0c6abbd354530935830af2bba573, type: 3}
+      sprite: {fileID: 0}
+    - previousFirst: 0
+      previousSecond: 0
+      type: 2
+      text: "\u041C\u0423\u0414\u0420\u041E\u0421\u0422\u042C"
+      face: 0
+      body: 6
+      timer: 4
+      firstButton: "\u0434\u0430 \u0443\u0436"
+      secondButton: 
+      clip: {fileID: 0}
+      sprite: {fileID: 0}
+    - previousFirst: 0
+      previousSecond: 0
+      type: 0
+      text: "\u0417\u0430\u043F\u043E\u043C\u043D\u0438 \u0431\u0440\u0430\u0442 
+        \u0432 \u044D\u0442\u043E\u0439 \u0436\u0438\u0437\u043D\u0438 \u0442\u044B
+        \u043B\u0438\u0431\u043E \u0432\u043E\u043B\u043A \u043B\u0438\u0431\u043E
+        \u043D\u0435 \u0432\u043E\u043B\u043A"
+      face: 1
+      body: 1
+      timer: 6
+      firstButton: 
+      secondButton: 
+      clip: {fileID: 8300000, guid: c2556a86d91b24b8e9f0a515ba1aa990, type: 3}
+      sprite: {fileID: 0}
+    - previousFirst: 0
+      previousSecond: 0
+      type: 3
+      text: "\u0430\u0443\u0444!"
+      face: 1
+      body: 1
+      timer: 4
+      firstButton: "\u0430\u0443\u0444!"
+      secondButton: 
+      clip: {fileID: 8300000, guid: d8cb0c6abbd354530935830af2bba573, type: 3}
+      sprite: {fileID: 0}
+    music: {fileID: 8300000, guid: 3c85fb29b5fae491cb175727f2ae8126, type: 3}
     completable: 1
   - name: anek4
     condition:
@@ -610,7 +2573,7 @@ MonoBehaviour:
       sprite: {fileID: 0}
     music: {fileID: 8300000, guid: 6377428bcc8954d5185621fd0a752ad2, type: 3}
     completable: 1
-  - name: anek8
+  - name: history4
     condition:
       completedEvents: []
       isWoman: 0
@@ -619,30 +2582,33 @@ MonoBehaviour:
     steps:
     - previousFirst: 0
       previousSecond: 0
-      type: 0
-      text: "\u0421\u041B\u0423\u0428\u0410\u0419"
-      face: 2
+      type: 1
+      text: "\u0412\u043E\u0442 \u0447\u0442\u043E"
+      face: 1
       body: 6
-      timer: 4
+      timer: 3
       firstButton: 
       secondButton: 
-      clip: {fileID: 8300000, guid: bff394af233e8461fadd67ef345543af, type: 3}
+      clip: {fileID: 8300000, guid: 37676b7d3799d4d6cb83ee64556f60af, type: 3}
       sprite: {fileID: 0}
     - previousFirst: 0
       previousSecond: 0
       type: 3
-      text: "\u043F\u043E\u0447\u0435\u043C\u0443 \u043D\u0435\u0442 \u0438\u0433\u0440\u044B
-        \u0433\u0434\u0435 \u0442\u044B \u0442\u0438\u043F\u0430 \u0433\u0440\u0438\u0431\u043E\u043A"
-      face: 1
-      body: 2
+      text: "\u041F\u043E\u0442\u043E\u043C\u0441\u0442\u0432\u043E \u0432\u043E\u0436\u0430\u043A\u0430
+        \u0438 \u0435\u0433\u043E \u043F\u0430\u0440\u044B \u043E\u0431\u044B\u0447\u043D\u043E
+        \u0432\u043E\u0441\u043F\u0438\u0442\u044B\u0432\u0430\u0435\u0442 \u0432\u0441\u044F
+        \u0441\u0442\u0430\u044F, \u0430 \u043C\u0435\u043D\u044F \u0432\u043E\u0441\u043F\u0438\u0442\u0430\u043B\u0430
+        \u0443\u043B\u0438\u0446\u0430"
+      face: 0
+      body: 5
       timer: 1000
-      firstButton: "\u0434\u0430 \u0443\u0436"
+      firstButton: "\u043E\u043A"
       secondButton: 
       clip: {fileID: 8300000, guid: 457acbad1eb9e4f218633e62960903de, type: 3}
       sprite: {fileID: 0}
     music: {fileID: 8300000, guid: 6377428bcc8954d5185621fd0a752ad2, type: 3}
     completable: 1
-  - name: anek9
+  - name: quote9
     condition:
       completedEvents: []
       isWoman: 0
@@ -651,30 +2617,93 @@ MonoBehaviour:
     steps:
     - previousFirst: 0
       previousSecond: 0
-      type: 2
-      text: "\u0422\u0430\u043A\u043E\u0439 \u0432\u043E\u043F\u0440\u043E\u0441"
-      face: 2
+      type: 1
+      text: "\u0422\u0430\u043A"
+      face: 0
       body: 6
       timer: 4
       firstButton: 
       secondButton: 
-      clip: {fileID: 8300000, guid: bff394af233e8461fadd67ef345543af, type: 3}
+      clip: {fileID: 8300000, guid: d8cb0c6abbd354530935830af2bba573, type: 3}
+      sprite: {fileID: 0}
+    - previousFirst: 0
+      previousSecond: 0
+      type: 2
+      text: "\u041C\u0423\u0414\u0420\u041E\u0421\u0422\u042C"
+      face: 0
+      body: 6
+      timer: 4
+      firstButton: "\u0434\u0430 \u0443\u0436"
+      secondButton: 
+      clip: {fileID: 0}
+      sprite: {fileID: 0}
+    - previousFirst: 0
+      previousSecond: 0
+      type: 0
+      text: "\u0417\u0430\u043F\u043E\u043C\u043D\u0438 \u0431\u0440\u0430\u0442 
+        \u043B\u0443\u0447\u0448\u0435 \u0431\u044B\u0442\u044C \u0447\u0435\u043C
+        \u043D\u0435 \u0431\u044B\u0442\u044C"
+      face: 1
+      body: 1
+      timer: 6
+      firstButton: 
+      secondButton: 
+      clip: {fileID: 8300000, guid: c2556a86d91b24b8e9f0a515ba1aa990, type: 3}
       sprite: {fileID: 0}
     - previousFirst: 0
       previousSecond: 0
       type: 3
-      text: "\u0423 \u043C\u0435\u043D\u044F \u043F\u0443\u043F\u043E\u043A \u043D\u0435
-        \u043D\u0430\u0440\u0443\u0436\u0443, \u0442\u0435\u043F\u0435\u0440\u044C
-        \u0442\u044B \u0431\u0443\u0434\u0435\u0448\u044C \u0441\u043E \u043C\u043D\u043E\u0439
-        \u0432\u0441\u0442\u0440\u0435\u0447\u0430\u0442\u044C\u0441\u044F?"
+      text: "\u0430\u0443\u0444!"
+      face: 1
+      body: 1
+      timer: 4
+      firstButton: "\u0430\u0443\u0444!"
+      secondButton: 
+      clip: {fileID: 8300000, guid: d8cb0c6abbd354530935830af2bba573, type: 3}
+      sprite: {fileID: 0}
+    music: {fileID: 8300000, guid: 3c85fb29b5fae491cb175727f2ae8126, type: 3}
+    completable: 1
+  - name: meme11
+    condition:
+      completedEvents: []
+      isWoman: 0
+      minRelationship: 0
+      maxRelationship: 0
+    steps:
+    - previousFirst: 0
+      previousSecond: 0
+      type: 1
+      text: "\u041A\u0430\u043A \u0434\u0435\u043B\u0430?"
+      face: 0
+      body: 6
+      timer: 4
+      firstButton: 
+      secondButton: 
+      clip: {fileID: 8300000, guid: d8cb0c6abbd354530935830af2bba573, type: 3}
+      sprite: {fileID: 0}
+    - previousFirst: 0
+      previousSecond: 0
+      type: 2
+      text: "\u0414\u0415\u0420\u0416\u0418 \u041C\u0415\u041C"
+      face: 0
+      body: 6
+      timer: 4
+      firstButton: "\u0434\u0430 \u0443\u0436"
+      secondButton: 
+      clip: {fileID: 0}
+      sprite: {fileID: 0}
+    - previousFirst: 0
+      previousSecond: 0
+      type: 7
+      text: 
       face: 1
       body: 2
       timer: 1000
-      firstButton: "\u043D\u0435\u0442"
+      firstButton: "\u0434\u0430 \u0443\u0436"
       secondButton: 
-      clip: {fileID: 8300000, guid: 457acbad1eb9e4f218633e62960903de, type: 3}
-      sprite: {fileID: 0}
-    music: {fileID: 8300000, guid: 6377428bcc8954d5185621fd0a752ad2, type: 3}
+      clip: {fileID: 0}
+      sprite: {fileID: 21300000, guid: 446a8d54e886444839f2f0f7878d6194, type: 3}
+    music: {fileID: 8300000, guid: 3c85fb29b5fae491cb175727f2ae8126, type: 3}
     completable: 1
   - name: anek10
     condition:
@@ -710,41 +2739,6 @@ MonoBehaviour:
       sprite: {fileID: 0}
     music: {fileID: 8300000, guid: 6377428bcc8954d5185621fd0a752ad2, type: 3}
     completable: 1
-  - name: anek11
-    condition:
-      completedEvents: []
-      isWoman: 0
-      minRelationship: 0
-      maxRelationship: 0
-    steps:
-    - previousFirst: 0
-      previousSecond: 0
-      type: 2
-      text: "\u0412\u041E\u0422 \u042D\u0422\u041E  \u041F\u0420\u0418\u041A\u041E\u041B
-        \u0421\u041B\u0423\u0428\u0410\u0419"
-      face: 2
-      body: 6
-      timer: 4
-      firstButton: 
-      secondButton: 
-      clip: {fileID: 8300000, guid: bff394af233e8461fadd67ef345543af, type: 3}
-      sprite: {fileID: 0}
-    - previousFirst: 0
-      previousSecond: 0
-      type: 3
-      text: "HR \u0432 \u041C\u043E\u0441\u043A\u0432\u0435:  -\u043A\u0430\u043A\u0438\u0435
-        \u0443 \u0432\u0430\u0441 \u0435\u0441\u0442\u044C \u0441\u0443\u043F\u0435\u0440\u0441\u043F\u043E\u0441\u043E\u0431\u043D\u043E\u0441\u0442\u0438
-        ?  HR \u0432 \u0440\u0435\u0433\u0438\u043E\u043D\u0430\u0445:  - \u0441\u0443\u0434\u0438\u043C\u043E\u0441\u0442\u044C
-        \u0435\u0441\u0442\u044C?"
-      face: 1
-      body: 2
-      timer: 1000
-      firstButton: "\u0434\u0430 \u0443\u0436"
-      secondButton: 
-      clip: {fileID: 8300000, guid: 457acbad1eb9e4f218633e62960903de, type: 3}
-      sprite: {fileID: 0}
-    music: {fileID: 8300000, guid: 6377428bcc8954d5185621fd0a752ad2, type: 3}
-    completable: 1
   - name: nothing
     condition:
       completedEvents: []
@@ -764,173 +2758,62 @@ MonoBehaviour:
       secondButton: 
       clip: {fileID: 8300000, guid: 645abac6d5ca34dbd82281a3f8c38d9d, type: 3}
       sprite: {fileID: 0}
-    music: {fileID: 8300000, guid: 9405321e5d3e0401a952e85472d386d2, type: 3}
-    completable: 0
-  - name: change_name
-    condition:
-      completedEvents: []
-      isWoman: 0
-      minRelationship: 0
-      maxRelationship: 0
-    steps:
     - previousFirst: 0
       previousSecond: 0
       type: 1
-      text: "\u0422\u044B \u043A\u0442\u043E \u0431\u0443\u0434\u0435\u0448\u044C?"
-      face: 0
+      text: "\u042F \u043F\u043E\u0448\u0435\u043B \u0442\u043E\u0433\u0434\u0430"
+      face: 1
+      body: 6
+      timer: 5
+      firstButton: 
+      secondButton: 
+      clip: {fileID: 8300000, guid: 645abac6d5ca34dbd82281a3f8c38d9d, type: 3}
+      sprite: {fileID: 0}
+    - previousFirst: 0
+      previousSecond: 0
+      type: 1
+      text: 
+      face: 1
       body: 0
+      timer: 10
+      firstButton: 
+      secondButton: 
+      clip: {fileID: 8300000, guid: 645abac6d5ca34dbd82281a3f8c38d9d, type: 3}
+      sprite: {fileID: 0}
+    - previousFirst: 0
+      previousSecond: 0
+      type: 1
+      text: "\u041B\u0430\u0434\u043D\u043E, \u043F\u043E\u0441\u043B\u0435\u0434\u043D\u0438\u0439
+        \u043C\u0435\u043C"
+      face: 1
+      body: 2
       timer: 4
       firstButton: 
       secondButton: 
-      clip: {fileID: 8300000, guid: e0e1aab03d81f4cae8339ebf00082e4d, type: 3}
-      sprite: {fileID: 0}
-    - previousFirst: 0
-      previousSecond: 0
-      type: 5
-      text: 
-      face: 0
-      body: 0
-      timer: 1000
-      firstButton: 
-      secondButton: 
-      clip: {fileID: 0}
-      sprite: {fileID: 0}
-    - previousFirst: 1
-      previousSecond: 0
-      type: 3
-      text: "\u041F\u0440\u0438\u044F\u0442\u043D\u043E \u043F\u043E\u0437\u043D\u0430\u043A\u043E\u043C\u0438\u0442\u044C\u0441\u044F,
-        \u0430 \u044F \u0421\u0435\u0440\u0435\u043D\u044F, \u043D\u043E \u0442\u044B
-        \u043C\u043E\u0436\u0435\u0448\u044C \u043D\u0430\u0437\u044B\u0432\u0430\u0442\u044C
-        \u043C\u0435\u043D\u044F \u043A\u0430\u043A \u0445\u043E\u0447\u0435\u0448\u044C"
-      face: 0
-      body: 0
-      timer: 7
-      firstButton: "\u041B\u0430\u0434\u044B"
-      secondButton: 
-      clip: {fileID: 8300000, guid: 457acbad1eb9e4f218633e62960903de, type: 3}
-      sprite: {fileID: 0}
-    - previousFirst: 0
-      previousSecond: 1
-      type: 3
-      text: "\u0411\u0443\u0434\u0443 \u043D\u0430\u0437\u044B\u0432\u0430\u0442\u044C
-        \u0442\u0435\u0431\u044F \u0431\u0440\u0430\u0442 \u0442\u043E\u0433\u0434\u0430,
-        \u0430 \u044F \u0421\u0435\u0440\u0435\u043D\u044F, \u043D\u043E \u0442\u044B
-        \u043C\u043E\u0436\u0435\u0448\u044C \u043D\u0430\u0437\u044B\u0432\u0430\u0442\u044C
-        \u043C\u0435\u043D\u044F \u043A\u0430\u043A \u0445\u043E\u0447\u0435\u0448\u044C"
-      face: 0
-      body: 0
-      timer: 7
-      firstButton: "\u041B\u0430\u0434\u044B"
-      secondButton: 
-      clip: {fileID: 8300000, guid: 457acbad1eb9e4f218633e62960903de, type: 3}
-      sprite: {fileID: 0}
-    - previousFirst: 0
-      previousSecond: 0
-      type: 6
-      text: 
-      face: 0
-      body: 0
-      timer: 1000
-      firstButton: 
-      secondButton: 
-      clip: {fileID: 0}
-      sprite: {fileID: 0}
-    - previousFirst: 1
-      previousSecond: 0
-      type: 0
-      text: "\u0421\u043B\u0430\u0432\u043D\u043E\u0435 \u0438\u043C\u0435\u0447\u043A\u043E"
-      face: 0
-      body: 0
-      timer: 3
-      firstButton: 
-      secondButton: 
-      clip: {fileID: 8300000, guid: d8cb0c6abbd354530935830af2bba573, type: 3}
-      sprite: {fileID: 0}
-    - previousFirst: 0
-      previousSecond: 1
-      type: 0
-      text: "\u0421\u0435\u0440\u0435\u043D\u044F \u0442\u0430\u043A \u0421\u0435\u0440\u0435\u043D\u044F"
-      face: 0
-      body: 0
-      timer: 3
-      firstButton: 
-      secondButton: 
-      clip: {fileID: 8300000, guid: 37676b7d3799d4d6cb83ee64556f60af, type: 3}
-      sprite: {fileID: 0}
-    music: {fileID: 0}
-    completable: 1
-  - name: hello
-    condition:
-      completedEvents: []
-      isWoman: 0
-      minRelationship: 0
-      maxRelationship: 0
-    steps:
-    - previousFirst: 0
-      previousSecond: 0
-      type: 1
-      text: "\u041F\u0440\u0438\u0432\u0435\u0442! \u0427\u0435 \u0434\u0435\u043B\u0430\u0435\u0448\u044C?"
-      face: 0
-      body: 6
-      timer: 10
-      firstButton: 
-      secondButton: 
-      clip: {fileID: 8300000, guid: 280c78b8ace7c49ab86896a703eb3480, type: 3}
-      sprite: {fileID: 0}
-    - previousFirst: 0
-      previousSecond: 0
-      type: 0
-      text: "\u0427\u0415 \u0414\u0415\u041B\u0410\u0415\u0428\u042C?"
-      face: 2
-      body: 6
-      timer: 10
-      firstButton: 
-      secondButton: 
-      clip: {fileID: 8300000, guid: 457acbad1eb9e4f218633e62960903de, type: 3}
-      sprite: {fileID: 0}
-    - previousFirst: 0
-      previousSecond: 0
-      type: 4
-      text: "\u0422\u0430\u043A \u0447\u0442\u043E?"
-      face: 1
-      body: 6
-      timer: 15
-      firstButton: "\u041D\u0438\u0447\u0435\u0433\u043E"
-      secondButton: "\u0414\u0430 \u043F\u0440\u043E\u0441\u0442"
-      clip: {fileID: 8300000, guid: 645abac6d5ca34dbd82281a3f8c38d9d, type: 3}
-      sprite: {fileID: 0}
-    - previousFirst: 1
-      previousSecond: 0
-      type: 1
-      text: "\u041D\u0443 \u044F\u0441\u043D\u043E"
-      face: 3
-      body: 6
-      timer: 10
-      firstButton: 
-      secondButton: 
       clip: {fileID: 8300000, guid: 645abac6d5ca34dbd82281a3f8c38d9d, type: 3}
       sprite: {fileID: 0}
     - previousFirst: 0
-      previousSecond: 1
+      previousSecond: 0
       type: 7
-      text: "\u0414\u0435\u0440\u0436\u0438 \u043C\u0435\u043C"
-      face: 3
-      body: 6
-      timer: 10
-      firstButton: "\u0414\u0430 \u0443\u0436"
+      text: "\u041B\u0430\u0434\u043D\u043E, \u043F\u043E\u0441\u043B\u0435\u0434\u043D\u0438\u0439
+        \u043C\u0435\u043C"
+      face: 1
+      body: 2
+      timer: 1000
+      firstButton: "\u043F\u0440\u043E\u0449\u0430\u0439"
       secondButton: 
-      clip: {fileID: 0}
-      sprite: {fileID: 21300000, guid: 8fa2d876122c64949ba68972e56d5e63, type: 3}
+      clip: {fileID: 8300000, guid: 645abac6d5ca34dbd82281a3f8c38d9d, type: 3}
+      sprite: {fileID: 21300000, guid: 981755e2a944a491bb6f5cf2c8c803aa, type: 3}
     - previousFirst: 0
       previousSecond: 0
-      type: 9
-      text: "\u0411\u0440\u0430\u0442, \u0434\u0430\u0432\u0430\u0439 \u043F\u043E\u0447\u0438\u043B\u043B\u0438\u043C"
-      face: 3
-      body: 6
-      timer: 10
-      firstButton: "\u0414\u0430 \u0443\u0436"
+      type: 1
+      text: '   '
+      face: 1
+      body: 0
+      timer: 10000000
+      firstButton: 
       secondButton: 
-      clip: {fileID: 0}
-      sprite: {fileID: 21300000, guid: 8fa2d876122c64949ba68972e56d5e63, type: 3}
-    music: {fileID: 8300000, guid: 866038a612bbf4aeeabce4c3a304b368, type: 3}
-    completable: 1
+      clip: {fileID: 8300000, guid: 645abac6d5ca34dbd82281a3f8c38d9d, type: 3}
+      sprite: {fileID: 0}
+    music: {fileID: 8300000, guid: 9405321e5d3e0401a952e85472d386d2, type: 3}
+    completable: 0

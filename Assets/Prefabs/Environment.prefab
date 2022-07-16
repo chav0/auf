@@ -12837,6 +12837,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wolf
       objectReference: {fileID: 0}
+    - target: {fileID: 2536710294779105441, guid: 5b43a3db607594c60b224dd94f3bac89, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6653073411327533924, guid: 5b43a3db607594c60b224dd94f3bac89, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -12880,6 +12884,14 @@ PrefabInstance:
     - target: {fileID: 6653073411327533924, guid: 5b43a3db607594c60b224dd94f3bac89, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385399892512129025, guid: 5b43a3db607594c60b224dd94f3bac89, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.97
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385399892512129025, guid: 5b43a3db607594c60b224dd94f3bac89, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5b43a3db607594c60b224dd94f3bac89, type: 3}
