@@ -34,36 +34,48 @@ public class EventHandler
     {
         if (Ends)
             return;
-        
-        if (widget.First)
-        {
-            _previousFirst = true; 
-        }
-        
-        if (widget.Second)
-        {
-            _previousSecond = true; 
-        }
 
         if (widget.SetName)
         {
             data.Name = widget.Input;
             Data.Save(data); 
             _previousFirst = true; 
+            _previousSecond = false;
         }
 
         if (widget.SetDefaultName)
         {
             data.Name = "БРАТ"; 
             Data.Save(data);
+            _previousFirst = false;
             _previousSecond = true; 
         }
 
         if (widget.SetWolfName)
         {
+            Debug.Log($"Set name {widget.Input}");
             data.WolfName = widget.Input; 
             Data.Save(data);
-            _previousFirst = true; 
+            _previousFirst = true;
+            _previousSecond = false;
+        }
+
+        if (widget.First)
+        {
+            _previousFirst = true;
+            _previousSecond = false;
+        }
+
+        if (widget.Second)
+        {
+            _previousFirst = false;
+            _previousSecond = true; 
+        }
+
+        if (widget.TimerIsOver || widget.Next)
+        {
+            _previousFirst = false;
+            _previousSecond = false; 
         }
         
         if (widget.TimerIsOver || 
@@ -75,8 +87,15 @@ public class EventHandler
             widget.SetWolfName)
         {
             Debug.Log($"Step end {_currentStep}");
-            
+
             _currentStep++;
+            while (Event.steps.Count > _currentStep && 
+                   (Event.steps[_currentStep].previousFirst != _previousFirst || 
+                    Event.steps[_currentStep].previousSecond != _previousSecond))
+            {
+                Debug.Log($"Step skipped {_currentStep}");
+                _currentStep++; 
+            }
 
             if (Event.steps.Count <= _currentStep)
             {
@@ -92,8 +111,8 @@ public class EventHandler
 
     private void SetStep(Step step, Data data, Widget widget, Wolf wolf)
     {
-        Debug.Log($"Step start {_currentStep}: {step.text}");
+        Debug.Log($"[{data.WolfName}]: Step start {_currentStep}: {step.text}");
         widget.SetStep(step, data.WolfName);
-        wolf.Set(step.face, step.body);
+        wolf.Set(step.face, step.body, step.clip);
     }
 }

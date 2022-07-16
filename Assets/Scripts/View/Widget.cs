@@ -28,7 +28,19 @@ public class Widget : MonoBehaviour
     public bool Next { get; private set; }
     public bool First { get; private set; }
     public bool Second { get; private set; }
-    public string Input { get; private set; }
+
+    private string _input; 
+
+    public string Input
+    {
+        get => _input;
+        private set
+        {
+            Debug.Log(value);
+            _input = value;
+        }
+    }
+
     public bool SetName { get; private set; }
     public bool SetDefaultName { get; private set; }
     public bool SetWolfName { get; private set; }
@@ -43,7 +55,8 @@ public class Widget : MonoBehaviour
         setNameButton.onClick.AddListener(() => SetName = true); 
         setDefaultNameButton.onClick.AddListener(() => SetDefaultName = true); 
         setWolfNameButton.onClick.AddListener(() => SetWolfName = true); 
-        input.onSubmit.AddListener(value => Input = value);
+        input.onEndEdit.AddListener(value => Input = value);
+        input.onValueChanged.AddListener(value => Input = value);
     }
 
     public void SetStep(Step step, string wolfName)
@@ -64,7 +77,8 @@ public class Widget : MonoBehaviour
         rainbowText.SetText(step.text);
         firstButtonText.text = step.firstButton;
         nextButtonText.text = step.firstButton;
-        secondButtonText.text = step.secondButton; 
+        secondButtonText.text = step.secondButton;
+        input.text = string.Empty;
     }
 
     public void ResetButtons()
@@ -72,7 +86,6 @@ public class Widget : MonoBehaviour
         Next = false;
         First = false;
         Second = false;
-        Input = null;
         SetName = false;
         SetDefaultName = false; 
         SetWolfName = false; 

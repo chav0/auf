@@ -1,3 +1,4 @@
+using System.Text;
 using UnityEngine;
 
 public class Game : MonoBehaviour
@@ -14,9 +15,17 @@ public class Game : MonoBehaviour
     private void Start()
     {
         _data = Data.Get();
+
+        var completed = new StringBuilder();
+        foreach (var e in _data.CompletedEvents)
+        {
+            completed.Append($"{e},"); 
+        }
+        
+        Debug.Log($"Completed events {completed}");
         
         var hour = _data.CurrentTime.Hour;
-        Debug.Log(hour);
+        Debug.Log($"Now {hour} hours");
         environment.Set(hour > 8 && hour < 21 ? EnvironmentState.Day : EnvironmentState.Night); 
     }
 
@@ -30,6 +39,7 @@ public class Game : MonoBehaviour
             if (_currentEventHandler != null)
             {
                 _data.CompletedEvents.Add(_currentEventHandler.Event.name);
+                Data.Save(_data);
                 Debug.Log($"End event {_currentEventHandler.Event.name}");
             }
             

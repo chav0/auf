@@ -1,4 +1,5 @@
 using System;
+using UnityEngine;
 
 [Serializable]
 public class Step
@@ -12,6 +13,7 @@ public class Step
     public float timer;
     public string firstButton;
     public string secondButton; 
+    public AudioClip clip; 
 }
 
 public enum StepType
