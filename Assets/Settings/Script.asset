@@ -251,7 +251,7 @@ MonoBehaviour:
         \u041D\u0435 \u0437\u043D\u0430\u044E"
       face: 0
       body: 0
-      timer: 10
+      timer: 5
       firstButton: 
       secondButton: 
       clip: {fileID: 8300000, guid: 645abac6d5ca34dbd82281a3f8c38d9d, type: 3}
