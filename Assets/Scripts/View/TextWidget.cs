@@ -25,6 +25,10 @@ public class TextWidget : MonoBehaviour
                 textWidget.text = _text.Substring(0, _symbols);
             })
             .AppendInterval(0.05f)
-            .SetLoops(_text.Length);
+            .SetLoops(_text.Length + 10)
+            .OnComplete(() =>
+            {
+                textWidget.text = _text; 
+            });
     }
 }
