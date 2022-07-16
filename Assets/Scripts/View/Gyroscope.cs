@@ -3,28 +3,30 @@ using UnityEngine;
 
 public class Gyroscope : MonoBehaviour
 {
-    public Background[] backgrounds; 
-    
+    public Vector3 center;
+    public Vector3 offset;
+
+    private void OnValidate()
+    {
+        center = transform.localPosition; 
+    }
+
+    private void OnEnable()
+    {
+        Input.gyro.enabled = true; 
+    }
+
     private void Update()
     {
-        var angle = Input.gyro.attitude.eulerAngles.x;
-        var ratio = Mathf.Clamp(angle / 180, -1, 1); 
-        foreach (var t in backgrounds)
-        {
-            Modify(t, ratio);
-        }
-    }
+        var angle = GyroToUnity(Input.gyro.attitude).eulerAngles;
+        var offsetX = Input.gyro.rotationRate.y * Time.deltaTime * offset.x;
+        var offsetY = Input.gyro.rotationRate.x * Time.deltaTime * offset.y;
 
-    private void Modify(Background background, float ratio)
+        transform.localPosition += new Vector3(offsetX , offsetY) ; 
+    }
+    
+    private static Quaternion GyroToUnity(Quaternion q)
     {
-        background.transform.position = background.center + background.offset * ratio; 
+        return new Quaternion(q.x, q.y, -q.z, -q.w);
     }
-}
-
-[Serializable]
-public class Background
-{
-    public Transform transform;
-    public Vector3 center;
-    public Vector3 offset; 
 }

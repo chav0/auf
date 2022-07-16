@@ -14,6 +14,10 @@ public class Game : MonoBehaviour
     private void Start()
     {
         _data = Data.Get();
+        
+        var hour = _data.CurrentTime.Hour;
+        Debug.Log(hour);
+        environment.Set(hour > 8 && hour < 21 ? EnvironmentState.Day : EnvironmentState.Night); 
     }
 
     private void Update()

@@ -3,6 +3,8 @@ using System;
 [Serializable]
 public class Step
 {
+    public bool previousFirst;
+    public bool previousSecond;
     public StepType type; 
     public string text; 
     public WolfFaceState face;

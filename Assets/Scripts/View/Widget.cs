@@ -57,7 +57,7 @@ public class Widget : MonoBehaviour
                 gameObjects[i].SetActive(state.enabled[i]);
         }
 
-        wolfNameWidget.text = string.IsNullOrEmpty(wolfName) ? "Сергей" : wolfName;
+        wolfNameWidget.text = string.IsNullOrEmpty(wolfName) ? "Сергей:" : $"{wolfName}:";
         timerWidget.SetTimer(step.timer);
         wolfText.SetText(step.text);
         angryText.SetText(step.text);

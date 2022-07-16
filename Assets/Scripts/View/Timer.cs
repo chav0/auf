@@ -22,7 +22,7 @@ public class Timer : MonoBehaviour
             .AppendCallback(() =>
             {
                 _timer -= 1;
-                text.text = $"00:{_timer:N2}";
+                text.text = $"00:{_timer:00}";
             })
             .AppendInterval(1)
             .SetLoops((int) _timer); 

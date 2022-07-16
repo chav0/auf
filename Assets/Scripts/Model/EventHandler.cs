@@ -6,6 +6,8 @@ public class EventHandler
     public bool Ends { get; private set; }
 
     private int _currentStep; 
+    private bool _previousFirst; 
+    private bool _previousSecond; 
     
     public EventHandler(Event gameEvent, Data data, Widget widget, Wolf wolf)
     {
@@ -26,9 +28,6 @@ public class EventHandler
             music.loop = true;
             music.Play();
         }
-
-        var hour = data.CurrentTime.Hour;
-        environment.Set(hour > 8 && hour < 22 ? EnvironmentState.Day : EnvironmentState.Night); 
     }
 
     public void Handle(Data data, Widget widget, Wolf wolf)
@@ -36,7 +35,44 @@ public class EventHandler
         if (Ends)
             return;
         
-        if (widget.TimerIsOver)
+        if (widget.First)
+        {
+            _previousFirst = true; 
+        }
+        
+        if (widget.Second)
+        {
+            _previousSecond = true; 
+        }
+
+        if (widget.SetName)
+        {
+            data.Name = widget.Input;
+            Data.Save(data); 
+            _previousFirst = true; 
+        }
+
+        if (widget.SetDefaultName)
+        {
+            data.Name = "БРАТ"; 
+            Data.Save(data);
+            _previousSecond = true; 
+        }
+
+        if (widget.SetWolfName)
+        {
+            data.WolfName = widget.Input; 
+            Data.Save(data);
+            _previousFirst = true; 
+        }
+        
+        if (widget.TimerIsOver || 
+            widget.Next || 
+            widget.First || 
+            widget.Second || 
+            widget.SetName || 
+            widget.SetDefaultName || 
+            widget.SetWolfName)
         {
             Debug.Log($"Step end {_currentStep}");
             
@@ -50,6 +86,8 @@ public class EventHandler
 
             SetStep(Event.steps[_currentStep], data, widget, wolf);
         }
+        
+        widget.ResetButtons();
     }
 
     private void SetStep(Step step, Data data, Widget widget, Wolf wolf)
