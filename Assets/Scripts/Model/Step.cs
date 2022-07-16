@@ -14,6 +14,7 @@ public class Step
     public string firstButton;
     public string secondButton; 
     public AudioClip clip; 
+    public Sprite sprite; 
 }
 
 public enum StepType

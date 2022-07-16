@@ -22,6 +22,7 @@ public class Widget : MonoBehaviour
     [SerializeField] private TextWidget wolfText; 
     [SerializeField] private TextWidget angryText; 
     [SerializeField] private TextWidget rainbowText; 
+    [SerializeField] private Image mem; 
     
     public MainScreen main;
     
@@ -79,6 +80,7 @@ public class Widget : MonoBehaviour
         nextButtonText.text = step.firstButton;
         secondButtonText.text = step.secondButton;
         input.text = string.Empty;
+        mem.sprite = step.sprite; 
     }
 
     public void ResetButtons()
