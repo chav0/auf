@@ -24,7 +24,7 @@ public class TextWidget : MonoBehaviour
                 _symbols++; 
                 textWidget.text = _text.Substring(0, _symbols);
             })
-            .AppendInterval(0.1f)
+            .AppendInterval(0.05f)
             .SetLoops(_text.Length);
     }
 }
