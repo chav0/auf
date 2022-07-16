@@ -34,10 +34,21 @@ public class Wolf : MonoBehaviour
         sound.clip = clip; 
         sound.Play();
 
-        animator.SetBool(Angry, faceState == WolfFaceState.Angry); 
-        animator.SetBool(Happy, faceState == WolfFaceState.Happy); 
-        animator.SetBool(Neutral, faceState == WolfFaceState.Neutral); 
-        animator.SetBool(Workout, faceState == WolfFaceState.Workout); 
+        switch (faceState)
+        {
+            case WolfFaceState.Happy:
+                animator.SetTrigger(Happy); 
+                break;
+            case WolfFaceState.Neutral:
+                animator.SetTrigger(Neutral); 
+                break;
+            case WolfFaceState.Angry:
+                animator.SetTrigger(Angry); 
+                break;
+            case WolfFaceState.Workout:
+                animator.SetTrigger(Workout); 
+                break;
+        }
     }
 }
 
