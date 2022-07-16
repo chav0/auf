@@ -190,3 +190,23 @@ MonoBehaviour:
       clip: {fileID: 8300000, guid: c2556a86d91b24b8e9f0a515ba1aa990, type: 3}
     music: {fileID: 8300000, guid: d1edf63d9d2614d7d969f9d4b1147d77, type: 3}
     completable: 1
+  - name: nothing
+    condition:
+      completedEvents: []
+      isWoman: 0
+      minRelationship: 0
+      maxRelationship: 0
+    steps:
+    - previousFirst: 0
+      previousSecond: 0
+      type: 1
+      text: "\u041E \u0447\u0435\u043C \u043F\u043E\u0433\u043E\u0432\u043E\u0440\u0438\u043C?
+        \u041D\u0435 \u0437\u043D\u0430\u044E"
+      face: 0
+      body: 0
+      timer: 10
+      firstButton: 
+      secondButton: 
+      clip: {fileID: 8300000, guid: 645abac6d5ca34dbd82281a3f8c38d9d, type: 3}
+    music: {fileID: 8300000, guid: 9405321e5d3e0401a952e85472d386d2, type: 3}
+    completable: 0
