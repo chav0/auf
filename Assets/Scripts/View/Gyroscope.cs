@@ -18,11 +18,16 @@ public class Gyroscope : MonoBehaviour
 
     private void Update()
     {
-        var angle = GyroToUnity(Input.gyro.attitude).eulerAngles;
         var offsetX = Input.gyro.rotationRate.y * Time.deltaTime * offset.x;
         var offsetY = Input.gyro.rotationRate.x * Time.deltaTime * offset.y;
 
-        transform.localPosition += new Vector3(offsetX , offsetY) ; 
+        transform.localPosition += new Vector3(offsetX , offsetY);
+
+        var pos = transform.localPosition;
+        var x = Mathf.Clamp(pos.x, center.x - offset.x, center.x + offset.x);
+        var y = Mathf.Clamp(pos.y, center.y - offset.y, center.y + offset.y);
+
+        transform.localPosition = new Vector3(x, y); 
     }
     
     private static Quaternion GyroToUnity(Quaternion q)
